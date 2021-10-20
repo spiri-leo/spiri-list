@@ -2,4 +2,65 @@
 ! Title: spiri-list Trackers
 ! Description: Trackers list for adblockers
 
-! Wait when spiri-list is start.
+! Domains list
+||3p-udc.yahoo.com^
+||3p-geo.yahoo.com^
+||an.yandex.ru^
+||bats.video.yahoo.com^
+||collector.githubapp.com^
+||direct-events-collector.spot.im^
+||duckduckgo.com/t/
+||google-analytics.com^
+||googletagmanager.com^
+||geo.yahoo.com^
+||jac.yahoosandbox.com^
+||js-agent.newrelic.com^
+||jill.fc.yahoo.com^
+||likemore-go.imgsmail.ru^$image
+||mail.ru/count
+||mail.ru/k?
+||metrics-logger.spot.im^
+||pix.spot.im^
+||pixel.advertising.com^
+||mc.yandex.ru^
+||rlcdn.com^
+||st.top100.ru^
+||ssp.rambler.ru^
+||tns-counter.ru^
+||top-fwz1.mail.ru^
+||t.spot.im^
+||trk.vidible.tv^
+||variti.net^$3p
+||vop-yahoo.akamaized.net/pixel.gif
+||wc.yahoodns.net^$image
+||yadro.ru^
+||yahoo.net/pixel*.gif
+||yahoo.net/noquery/pixel.gif
+||yahoovod.hs.llnwd.net/pixel.gif
+||yahoo.net/pixel*.gif
+!
+
+! Tracking directories
+
+! Site specific
+||rambler.ru/metrics/
+||rambler.ru/*/okko-metrics
+||github.com/_private/browser/stats
+||yimg.com/aaq/wf/wf-darla-
+||yimg.com/cx/vzm/cs.js
+||yahoo.com/_td_api/beacon/
+!
+
+! More sites specific
+/browserinfo?f.sid=
+/curveball/ads/*
+/event-tracking/*
+/gen204/*
+/optimizely-
+/p.gif?
+/perf-vitals_
+/wf-beacon-
+/pixel.gif?
+!
+
+!

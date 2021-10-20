@@ -1,0 +1,11 @@
+[Adblock Plus 2.0]
+! Title: spiri-list Annoyances
+! Description: Annoyances for adblockers
+
+! Includes
+!#include https://raw.githubusercontent.com/spiri-leo/spiri-hosts/main/blocklists/block_annoyances/adblock_elements.txt
+!
+
+! Domains
+
+!

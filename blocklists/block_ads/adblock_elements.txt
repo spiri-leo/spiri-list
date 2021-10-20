@@ -2,4 +2,6 @@
 ! Title: spiri-list Adblock Ad Elements
 ! Description: Adblock elements list only for adblockers.
 
-! nothing
+! Elements
+
+!

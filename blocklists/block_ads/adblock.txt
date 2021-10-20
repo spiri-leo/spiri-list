@@ -13,6 +13,8 @@
 !
 
 ! Domains block list:
+||aolcdn.com/ads/$script
+||adtechus.com^
 ||amazon-adsystem.com^
 ||assoc-amazon.com^
 ||ads.facebook.com^
@@ -27,6 +29,7 @@
 ||ad.xiaomi.com^
 ||ad.intl.xiaomi.com^
 ||ad.mail.ru^$3p
+||adnxs.com^
 ||cleverads.vn^
 ||doubleclick.net^
 ||fastclick.net^
@@ -34,11 +37,15 @@
 ||googleadservices.com^
 ||imasdk.googleapis.com^
 ||media.net^
+||pubmatic.com^
 ||pulse.mail.ru^$domain=~e.mail.ru|~octavius.mail.ru|~pulse.mail.ru
 ||rereddit.com^
 ||samsungadhub.com^
 ||samsungads.com^
+||scorecardresearch.com^
+||spotxchange.com^
 ||yandexadexchange.net^
+||zergnet.com^$script,3p
 !
 
 ! Files and directories
@@ -49,6 +56,8 @@
 
 ! Site specific
 ||yastatic.net/*/rsya-tag-users/
+||yimg.com/nn/lib/metro/g/sda/$domain=yahoo.com
+||yimg.com/rq/darla/$domain=yahoo.com
 !
 
 !

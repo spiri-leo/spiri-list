@@ -1,0 +1,8 @@
+[Adblock Plus 2.0]
+! Title: spiri-list Cookies
+! Description: Cookie list for adblockers
+
+! Elements
+rambler.ru##._1VtI
+yahoo.com##.Mb-20.hpsetbannerpromotdv2wafer
+!
