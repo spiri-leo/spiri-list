@@ -1,0 +1,11 @@
+[Adblock Plus 2.0]
+! Title: spiri-list Cookies
+! Description: Cookie list for adblockers
+
+! Domains
+||consent.cmp.oath.com^
+!
+
+! Elements
+
+!
