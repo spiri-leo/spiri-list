@@ -1,0 +1,5 @@
+[Adblock Plus 2.0]
+! Title: spiri-list Adblock Ad Elements
+! Description: Adblock elements list only for adblockers.
+
+! nothing
