@@ -1,0 +1,5 @@
+[Adblock Plus 2.0]
+! Title: spiri-list Adblock
+! Description: Adblock list for adblockers.
+
+! Wait when spiri-list is start.
