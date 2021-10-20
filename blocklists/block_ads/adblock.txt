@@ -2,4 +2,53 @@
 ! Title: spiri-list Adblock
 ! Description: Adblock list for adblockers.
 
-! Wait when spiri-list is start.
+! Includes
+!#include https://raw.githubusercontent.com/spiri-leo/spiri-hosts/main/blocklists/block_ads/adblock_elements.txt
+!#include https://raw.githubusercontent.com/spiri-leo/spiri-hosts/main/blocklists/block_ads/adblock_whitelist.txt
+!
+
+! Block some advertisment domains or objects
+://ads.$domain=~ads.ac.uk|~ads.adstream.com.ro|~ads.allegro.pl|~ads.am|~ads.amazon|~ads.apple.com|~ads.atmosphere.copernicus.eu|~ads.bestprints.biz|~ads.bigbom.com|~ads.bikepump.com|~ads.brave.com|~ads.buscaempresas.co|~ads.cableidp.jp|~ads.colombiaonline.com|~ads.comeon.com|~ads.cvut.cz|~ads.d2c.ne.jp|~ads.dev.int.revelian.com|~ads.dollartree.com|~ads.elcarado.com|~ads.gambinoslot.com|~ads.google.com|~ads.gree.net|~ads.harvard.edu|~ads.instacart.com|~ads.jiosaavn.com|~ads.kaipoke.biz|~ads.kazakh-zerno.net|~ads.lapalingo.com|~ads.listonic.com|~ads.lordlucky.com|~ads.lviv.ua|~ads.magalu.com|~ads.mba|~ads.microsoft.com|~ads.midwayusa.com|~ads.mobilebet.com|~ads.msstate.edu|~ads.mst.dk|~ads.nc|~ads.nimses.com|~ads.nipr.ac.jp|~ads.odesbuild.com|~ads.olx.pl|~ads.pinterest.com|~ads.quasaraffiliates.com|~ads.red|~ads.route.cc|~ads.safi-gmbh.ch|~ads.selfip.com|~ads.sk|~ads.snapchat.com|~ads.socialtheater.com|~ads.spotify.com|~ads.studyplus.co.jp|~ads.taboola.com|~ads.tiktok.com|~ads.toplayaffiliates.com|~ads.typepad.jp|~ads.viksaffiliates.com|~ads.watson.ch|~ads.xtribeapp.com|~ads.yahoosmallbusiness.com|~badassembly.com|~caravansforsale.co.uk|~fusac.fr|~memo2.nl|~reempresa.org|~satmetrix.com|~seriouswheels.com
+/reklama.$~stylesheet,domain=~pracuj.pl|~reklama.cinema.sk|~reklama.grajewo.net.pl|~reklama.mariafm.ru|~reklama.ringieraxelspringer.pl|~reklama.tochka.com
+!
+
+! Domains block list:
+||amazon-adsystem.com^
+||assoc-amazon.com^
+||ads.facebook.com^
+||ads-twitter.com^
+||ads.linkedin.com^
+||ads.pinterest.com^$3p
+||ads.tiktok.com^
+||ads.yahoo.com^
+||adserver.yahoo.com^
+||ads.yap.yahoo.com^
+||adsdk.yandex.ru^
+||ad.xiaomi.com^
+||ad.intl.xiaomi.com^
+||ad.mail.ru^$3p
+||cleverads.vn^
+||doubleclick.net^
+||fastclick.net^
+||googlesyndication.com^
+||googleadservices.com^
+||imasdk.googleapis.com^
+||media.net^
+||pulse.mail.ru^$domain=~e.mail.ru|~octavius.mail.ru|~pulse.mail.ru
+||rereddit.com^
+||samsungadhub.com^
+||samsungads.com^
+||yandexadexchange.net^
+!
+
+! Files and directories
+
+! Regex based
+/^https?:\/\/yastatic\.net\/www\/_\/[^\s]{150,}/$image,domain=yandex.by|yandex.kz|yandex.ru|yandex.ua|yandex.uz
+!
+
+! Site specific
+||yastatic.net/*/rsya-tag-users/
+!
+
+!
