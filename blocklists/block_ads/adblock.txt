@@ -3,49 +3,148 @@
 ! Description: Adblock list for adblockers.
 
 ! Includes
-!#include https://raw.githubusercontent.com/spiri-leo/spiri-hosts/main/blocklists/block_ads/adblock_elements.txt
-!#include https://raw.githubusercontent.com/spiri-leo/spiri-hosts/main/blocklists/block_ads/adblock_whitelist.txt
+!#include https://raw.githubusercontent.com/spiri-leo/spiri-list/main/blocklists/block_ads/adblock_elements.txt
+!#include https://raw.githubusercontent.com/spiri-leo/spiri-list/main/blocklists/block_ads/adblock_whitelist.txt
+!#include https://raw.githubusercontent.com/spiri-leo/spiri-list/main/blocklists/block_ads/adblock_antiadblock.txt
 !
 
 ! Block some advertisment domains or objects
 ://ads.$domain=~ads.ac.uk|~ads.adstream.com.ro|~ads.allegro.pl|~ads.am|~ads.amazon|~ads.apple.com|~ads.atmosphere.copernicus.eu|~ads.bestprints.biz|~ads.bigbom.com|~ads.bikepump.com|~ads.brave.com|~ads.buscaempresas.co|~ads.cableidp.jp|~ads.colombiaonline.com|~ads.comeon.com|~ads.cvut.cz|~ads.d2c.ne.jp|~ads.dev.int.revelian.com|~ads.dollartree.com|~ads.elcarado.com|~ads.gambinoslot.com|~ads.google.com|~ads.gree.net|~ads.harvard.edu|~ads.instacart.com|~ads.jiosaavn.com|~ads.kaipoke.biz|~ads.kazakh-zerno.net|~ads.lapalingo.com|~ads.listonic.com|~ads.lordlucky.com|~ads.lviv.ua|~ads.magalu.com|~ads.mba|~ads.microsoft.com|~ads.midwayusa.com|~ads.mobilebet.com|~ads.msstate.edu|~ads.mst.dk|~ads.nc|~ads.nimses.com|~ads.nipr.ac.jp|~ads.odesbuild.com|~ads.olx.pl|~ads.pinterest.com|~ads.quasaraffiliates.com|~ads.red|~ads.route.cc|~ads.safi-gmbh.ch|~ads.selfip.com|~ads.sk|~ads.snapchat.com|~ads.socialtheater.com|~ads.spotify.com|~ads.studyplus.co.jp|~ads.taboola.com|~ads.tiktok.com|~ads.toplayaffiliates.com|~ads.typepad.jp|~ads.viksaffiliates.com|~ads.watson.ch|~ads.xtribeapp.com|~ads.yahoosmallbusiness.com|~badassembly.com|~caravansforsale.co.uk|~fusac.fr|~memo2.nl|~reempresa.org|~satmetrix.com|~seriouswheels.com
 /reklama.$~stylesheet,domain=~pracuj.pl|~reklama.cinema.sk|~reklama.grajewo.net.pl|~reklama.mariafm.ru|~reklama.ringieraxelspringer.pl|~reklama.tochka.com
+://promo.$3p,domain=~myshopify.com|~promo.com|~shopifycloud.com|~slidely.com
 !
 
 ! Domains block list:
-||aolcdn.com/ads/$script
+||3lift.com^
+||360yield.com^
 ||adtechus.com^
 ||amazon-adsystem.com^
 ||assoc-amazon.com^
 ||ads.facebook.com^
 ||ads-twitter.com^
+||ads-api.twitter.com^
 ||ads.linkedin.com^
 ||ads.pinterest.com^$3p
 ||ads.tiktok.com^
 ||ads.yahoo.com^
 ||adserver.yahoo.com^
 ||ads.yap.yahoo.com^
+||ads.edadeal.ru^
 ||adsdk.yandex.ru^
 ||ad.xiaomi.com^
+||ad1.xiaomi.com^
 ||ad.intl.xiaomi.com^
 ||ad.mail.ru^$3p
+||ad.lgappstv.com^
 ||adnxs.com^
+||adswizz.com^$3p
+||adsnative.com^
+||adservice.google.com^
+||advertising-api-eu.amazon.com^
+||amazonaax.com^
+||amazonclix.com^
+||an.facebook.com^
+||advertising.twitter.com^
+||ads-dev.pinterest.com^
+||ads-sg.tiktok.com^
+||ads.viber.com^
+||ads-d.viber.com^
+||ads.aws.viber.com^
+||ads.kukku.com^
+||ads.api.vungle.com^
+||applovin.com^
+||adform.com^
+||ads.ookla.com^
+||ads.msn.com^
+||ads1.msn.com^
+||ad.gt^
+||ad.tencentmusic.com^
+||adcolony.com^
+||adfox.ru^
+||adv.sec.intl.miui.com^
+||adtech.com^
+||aaxads.com^
+||a.applvn.com^
+||amung.us^
+||appsflyer.com^
+||afp.ai^$3p
+||adsrvr.org^
+||adriver.ru^
+||adzerk.net^
+||adsafeprotected.com^
+||adtelligent.com^$3p
+||adtago.s3.amazonaws.com^
+||advice-ads.s3.amazonaws.com^
+||banners-slb.mobile.yandex.net^
+||banners.mobile.yandex.net^
+||buysellads.com^
+||bubblesmedia.ru^
+||blogherads.com^
+||bidder.criteo.com^
+||betweendigital.com^$3p
 ||cleverads.vn^
+||cotsta.ru^$3p
+||cache.betweendigital.com^
+||cs02-pps-drcn.dbankcdn.com^
 ||doubleclick.net^
+||dotomi.com^
+||edgrmtracking.com^$3p
 ||fastclick.net^
+||fastclick.com^
+||flurry.com^
+||flurry.cachefly.net^
 ||googlesyndication.com^
 ||googleadservices.com^
+||google.com/pagead/
 ||imasdk.googleapis.com^
+||iadsdk.apple.com^
+||imrworldwide.com^
+||inmobi.com^
+||indexww.com^
+||insightexpressai.com^
+||justpremium.com^
 ||media.net^
+||marketo.com^
+||moatads.com^
+||moat.com^
+||mopub.com^
+||ms.applvn.com^
+||mail-ads.google.com^
+||ml314.com^
+||medialand.ru^
+||moevideo.biz^$3p
+||nativeroll.tv^
+||news.mirtesen.ru^$3p
+||npttech.com^
 ||pubmatic.com^
-||pulse.mail.ru^$domain=~e.mail.ru|~octavius.mail.ru|~pulse.mail.ru
+||pubnative.net^
+||pulse.mail.ru^$domain=~mail.ru
+||pagead.l.google.com^
+||popup.msn.com^
+||promoted.soundcloud.com^
+||pro-market.net^
 ||rereddit.com^
+||redventures.io^$3p
+||rubiconproject.com^
 ||samsungadhub.com^
+||samsungtvads.com^
 ||samsungads.com^
 ||scorecardresearch.com^
 ||spotxchange.com^
+||static-doubleclick.com^
+||smartadserver.com^
+||sspapi-prd.samsungrs.com^
+||stickyadstv.com^
+||supersonicads.com^
+||supersonicads-a.akamaihd.net^
+||svk-native.ru^$3p
+||unityads.unity3d.com^
+||viadata.store^$3p
 ||yandexadexchange.net^
 ||zergnet.com^$script,3p
+||zysheptany.com^$3p
+||ziffdavis.com^
+||zedo.com^
 !
 
 ! Files and directories
@@ -55,9 +154,53 @@
 !
 
 ! Site specific
+||4pda.*/ad/
+||api.bbc.com/bbcdotcom/assets/*/script/av/emp/adverts.js$script,important
+||aolcdn.com/ads/$script
+||cdn.comss.net/action/ya-antiphishing.jpg
+||championat.com/embed/custom.css
+||fbc.ua/wp-content/uploads/2020/07/banner_KMZ.jpg
+||hi-fi.ru/js/yandexAds.js
+||newsapi.*.ru/v*/public/auto/offers$xmlhttprequest
+||rbk.ru^*/_yadirect.js
+||static-mon.yandex.net/static/main.js
+||tempest.services.disqus.com/ads-iframe^$important
 ||yastatic.net/*/rsya-tag-users/
+||yandex.net/get-direct
 ||yimg.com/nn/lib/metro/g/sda/$domain=yahoo.com
 ||yimg.com/rq/darla/$domain=yahoo.com
+!
+
+! For more sites
+/advice-ads.
+/adtago.
+/ads-api.
+/adslot-
+/adchoices-
+/adfox/*
+/adroll.
+/ads-min.
+/async-ads.js
+/curveball/ads/*
+-core-ads.
+/js/dfp-
+/pagead/lvz?
+/prebid.$domain=~prebid.org
+-prebid.$script
+/pbjsandwich-
+/pr_advertising_ads_banner.
+.ru/ads/
+/sponsored-articles/*$xmlhttprequest
+/spcjs.php
+/tapad/*
+!
+
+! noop filters
+
+! Site specific
+||static-mon.yandex.net/static/main.js$xmlhttprequest,redirect-rule=nooptext
+!
+
 !
 
 !

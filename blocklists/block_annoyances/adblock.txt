@@ -3,9 +3,28 @@
 ! Description: Annoyances for adblockers
 
 ! Includes
-!#include https://raw.githubusercontent.com/spiri-leo/spiri-hosts/main/blocklists/block_annoyances/adblock_elements.txt
+!#include https://raw.githubusercontent.com/spiri-leo/spiri-list/main/blocklists/block_annoyances/adblock_elements.txt
+!#include https://raw.githubusercontent.com/spiri-leo/spiri-list/main/blocklists/block_annoyances/adblock_widgets.txt
 !
 
 ! Domains
+||getsitecontrol.com^$3p
+||mod.calltouch.ru^$3p
+||pushwoosh.com^$3p
+||push.world^$3p
+||sendpulse.com^$3p
+!
+
+! Annoyances directories
+
+! Site specific
+||getsitecontrol.com/widgets/$3p
+||redditstatic.com/*/pushnotifications.
+!
+
+! For more sites specific
+/firebase-messaging.js$domain=ukranews.com|comments.ua|meduza.io|coub.com|porno90.me|cnnamador.com|giallozafferano.it|wcostream.com|fptplay.vn|jooble.org|mobile01.com|myinstants.com|pdalife.ru|rg.ru|m.iguides.ru|donanimhaber.com|profile.ru|womanhit.ru|news.noteru.com|narodna-pravda.ua|newstm.in|sabah.com.tr|dreamstime.com|popbee.com|avtovzglyad.ru|allbasketball.org|tw.news.yahoo.com|takvim.com.tr|jn.pt|ria.ru|pars.host|calculator-online.net|operanewsapp.com|ahaber.com.tr|tamindir.com|concursosnobrasil.com.br|kompas.com|news.ebc.net.tw|recyclingtoday.com|homedecoratione.com|khersondaily.com|mirtesen.ru|womanhit.ru|belsat.eu|gearbest.com|op.gg|novayagazeta.ru|pocket-lint.com|turunculevye.com
+/pushwoosh-
+!
 
 !

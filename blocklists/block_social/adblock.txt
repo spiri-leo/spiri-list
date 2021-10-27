@@ -1,0 +1,30 @@
+[Adblock Plus 2.0]
+! Title: spiri-list Social
+! Description: Social widgets blocklist for adblockers
+
+! Includes
+!#include https://raw.githubusercontent.com/spiri-leo/spiri-list/main/blocklists/block_social/adblock_elements.txt
+!
+
+! Domains
+||sharethis.com^$3p
+!
+
+! Social directories
+
+! Site specific
+||addthis.com/*/addthis_widget.js$script
+||developers.rambler.ru/likes*/widget.js
+||graph.facebook.com/?id=$3p
+||ok.ru/dk?st.cmd$3p
+||platform.twitter.com/widgets/tweet_button$3p
+||platform.twitter.com/js/button.$3p
+||vk.com/share.php$3p
+!
+
+! More sites specific
+/likely.css
+/share42.js$domain=~dontreg.ru|~kinopovod.tv
+!
+
+!

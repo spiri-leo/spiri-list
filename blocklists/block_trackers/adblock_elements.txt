@@ -1,0 +1,22 @@
+[Adblock Plus 2.0]
+! Title: spiri-list Trackers Elements
+! Description: Trackers elements list for adblockers
+
+! Elements
+
+! For sites
+www.google.*##+js(remove-attr, ping, div[id="search"] a[data-ved][ping])
+reddit.com##+js(no-xhr-if, method:POST url:/^https:\/\/www\.reddit\.com$/)
+reddit.com###hsts_pixel
+rambler.ru##+js(set-constant, window.top100, noopFunc)
+rambler.ru##+js(set-constant, window.top100Counter.sendCustomVars, noopFunc)
+yandex.ru##body > .popup[data-bem*="https://yabs.yandex.ru/count/"]
+!
+
+! For more sites
+##a[href^="http://top.mail.ru/jump"]
+##img[src*="counter.yadro.ru"]
+##img[width="88"][height="31"]
+!
+
+!

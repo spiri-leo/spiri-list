@@ -1,8 +1,22 @@
 [Adblock Plus 2.0]
-! Title: spiri-list Cookies
-! Description: Cookie list for adblockers
+! Title: spiri-list Cookies Elements
+! Description: Cookie elements list for adblockers
 
 ! Elements
-rambler.ru##._1VtI
-yahoo.com##.Mb-20.hpsetbannerpromotdv2wafer
+
+! Site specific
+activation-keys.ru##.clearfy-cookie--bottom.clearfy-cookie
+fandom.com##body:style(overflow: auto !important;)
+giphy.com##div[class^="flash-message"]
+i.mi.com##.policy-2VduG
+megogo.ru##.agreement-notify_v1
+!
+
+! For more sites specific
+##.grecaptcha-badge
+##.js-consent-banner
+###onetrust-banner-sdk
+###onetrust-consent-sdk
+!
+
 !

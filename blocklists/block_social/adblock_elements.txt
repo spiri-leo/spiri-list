@@ -1,0 +1,65 @@
+[Adblock Plus 2.0]
+! Title: spiri-list Social Elements
+! Description: Social elements blocklist for adblockers
+
+! Elements
+
+! For sites
+disqus.com##.comment__share
+disqus.com###thread-share-bar
+blog.domclick.ru##div[class^="SocialSharingButton"]
+ctnews.ru##.align-items-center.info-upper_post
+fontanka.ru##article[itemscope] ~ div[class]:has(> div[class] h4 + div > ul[class] > li[class] > a[href^="https://instagram.com/"][href$="_share"])
+fontanka.ru##section[itemprop="articleBody"] span[class] > img[alt="Поделиться"]:upward(1)
+fontanka.ru##ul > li[data-rg-name]
+gazeta.ru##.b_social_sharing
+iz.ru##.share_bottom2
+kp.ru###allrecords > div.t-rec:has(> div[class^="t-container"] div.ya-share2)
+kinopoisk.ru##.ya-share2
+lenta.ru##.b-socials__sharing
+lenta.ru##.social-snippet
+rt.com##.article__share:style(position: absolute!important; left: -3000px!important;)
+rt.com##.social-container
+rbc.ru##.article__header__counter-block > .article__header__after
+rbc.ru##.article__header__share-block
+ria.ru##.share
+ria.ru##.elem-info__share
+rambler.ru##div[data-blocks^="cluster_"] div[class]:has(> div[data-rambler-share])
+sport24.ru##div:has(> span:has-text(Поделиться))
+vp.rambler.ru##.eplayer-skin-share
+yandex.*##.news-story__share
+!
+
+! For more sites
+##.article__share
+##a[href^="http://twitter.com/share?"]
+##a[href^="https://twitter.com/share"]
+##a[href^="https://www.facebook.com/dialog/share?"]
+##a[href^="https://www.facebook.com/sharer/sharer.php"]
+##a[href^="https://connect.ok.ru/offer?url="]
+##a[href^="https://twitter.com/intent/tweet?"]
+##a[href^="https://vk.com/share.php"]
+##a[href^="https://www.facebook.com/sharer.php"]
+##a[href^="https://t.me/share/url?"]
+##a[href^="tg://msg_url?"]
+##body .twitter-share-button
+##.fb-like
+###fb-root:not(body):not(html)
+##.likely
+##.rrssb-buttons
+##.share-facebook
+##.share-fb
+##.share-text
+##.share-twitter
+##.share__button
+##.share42init
+##.social-likes
+##.social-networks
+###vk_groups
+##.ya-share2
+##.ya-share2__link
+##.ya-share2__list
+##.ya-share2_inited
+!
+
+!

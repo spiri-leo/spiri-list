@@ -1,0 +1,10 @@
+[Adblock Plus 2.0]
+! Title: spiri-list Trackers Whitelist
+! Description: Trackers whitelist for adblockers
+
+! Site specific
+@@||apple.com/metrics/data-relay/*/scripts/data-relay.js
+@@||dropboxstatic.com/static/js/modules/clean/ux_analytics/$script,domain=dropbox.com
+@@||mc.yandex.ru/metrika/tag.js$domain=iz.ru
+@@||securemetrics.apple.com/b/ss/$image
+!

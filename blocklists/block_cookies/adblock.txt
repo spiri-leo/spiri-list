@@ -2,10 +2,24 @@
 ! Title: spiri-list Cookies
 ! Description: Cookie list for adblockers
 
-! Domains
-||consent.cmp.oath.com^
+! Includes
+!#include https://raw.githubusercontent.com/spiri-leo/spiri-list/main/blocklists/block_cookies/adblock_elements.txt
 !
 
-! Elements
+! Domains
+||consent.cmp.oath.com^
+||cookielaw.org^$3p
+||optanon.blob.core.windows.net^
+||privacy-center.org^$3p
+||gn-flagpoles.api.bbci.co.uk^
+||onetrust.com^$3p
+!
 
+! Cookie directories
+/cookie-banner
+/cookiepolicy_
+_cookie_bar.
+/evidon-sitenotice-tag.
+/onetrust.
+/privacy/optanon/*
 !

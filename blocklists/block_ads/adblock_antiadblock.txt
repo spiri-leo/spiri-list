@@ -1,0 +1,19 @@
+[Adblock Plus 2.0]
+! Title: spiri-list Adblock Anti AdBlock
+! Description: Anti-Adblock blocklist for adblockers
+
+! Elements
+rambler.ru##.rui__3_IS5.rui__3EEui
+!
+
+! Anti adblock directories
+
+! Site specific
+||raw.githack.com/*/spiderblogging/main/antiadblock/2.0/code.min.js
+!
+
+! For more sites specific
+/blockadblock.$script
+!
+
+!

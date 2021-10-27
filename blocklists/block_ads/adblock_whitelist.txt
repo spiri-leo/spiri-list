@@ -2,4 +2,13 @@
 ! Title: spiri-list Adblock Whitelist
 ! Description: Adblock whitelist for adblockers.
 
-! nothing
+! Site specific whitelist
+@@||securepubads.g.doubleclick.net/tag/js/gpt.js$domain=autonews.ru|rbc.ru|sportrbc.ru
+!
+
+! Whitelist elements
+2ip.ru#@#.advMenuTab
+id.rambler.ru#@#+js(addEventListener-defuser, DOMContentLoaded, .j-mini-player__video)
+passport.yandex.ru#@#+js(cookie-remover, /blcrm|bltsr|engineer|computer/)
+passport.yandex.ru#@#+js(cookie-remover, /^bltsr$|^JPIqApiY$|^specific$|^substantial$/)
+!

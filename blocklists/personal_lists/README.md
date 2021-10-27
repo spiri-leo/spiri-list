@@ -1,1 +1,2 @@
-## spiri-list is not completed, please wait when spiri-list is open.
+## Personal lists
+Personal list is user lists for you, but some personal filters get problem.

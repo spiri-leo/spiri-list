@@ -1,0 +1,19 @@
+[Adblock Plus 2.0]
+! Title: spiri-list Annoyances Widgets
+! Description: Annoyances widgets blocklist for adblockers
+
+! Widgets directories
+
+! Chats
+
+! Site specific
+||widget.intercom.io^$3p,domain=~app.rezi.io|~intercom.com|~backerclub.co|~quidco.com|~green.energy
+!
+
+! For more sites specific
+/edu_chat.js
+!
+
+!
+
+!
