@@ -1,6 +1,6 @@
-!
-! Cookie elements
-!
+[Adblock Plus 2.0]
+! Title: spiri-list Cookies Elements
+! Description: Cookies elements blocklist for adblockers
 
 ! Site specific
 activation-keys.ru##.clearfy-cookie--bottom.clearfy-cookie

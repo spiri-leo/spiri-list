@@ -1,6 +1,6 @@
-!
-! Advertisment CSS elements
-!
+[Adblock Plus 2.0]
+! Title: spiri-list Adblock Elements
+! Description: Adblock elements blocklist for adblockers
 
 ! Elements
 

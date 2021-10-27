@@ -1,6 +1,6 @@
-!
-! Annoyances CSS elements
-!
+[Adblock Plus 2.0]
+! Title: spiri-list Annoyances Elements
+! Description: Annoyances elements whitelist for adblockers
 
 ! Elements
 

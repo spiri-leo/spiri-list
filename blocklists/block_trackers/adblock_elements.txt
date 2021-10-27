@@ -1,6 +1,6 @@
-!
-! Trackers elements
-!
+[Adblock Plus 2.0]
+! Title: spiri-list Trackers elements
+! Description: Trackers elements blocklist for adblockers
 
 ! Elements
 
