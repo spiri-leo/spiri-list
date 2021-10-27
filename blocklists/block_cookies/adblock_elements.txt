@@ -4,6 +4,7 @@
 
 ! Site specific
 activation-keys.ru##.clearfy-cookie--bottom.clearfy-cookie
+domclick.ru##div[class^="cookie-root"]
 fandom.com##body:style(overflow: auto !important;)
 giphy.com##div[class^="flash-message"]
 i.mi.com##.policy-2VduG

@@ -34,7 +34,6 @@ cyber.sports.ru##.match-summary__betting-bar
 cyber.sports.ru##.match-teaser__betting-bar
 chrome.google.com##[role="dialog"][aria-labelledby="promo-header"]
 duckduckgo.com###powered_by.results--powered
-domclick.ru##div[class^="cookie-root"]
 echo.msk.ru##div.first[style]
 echo.msk.ru##div[id]:empty
 echo.msk.ru##div[id]:style(min-height: 0 !important)
