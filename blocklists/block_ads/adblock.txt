@@ -5,7 +5,6 @@
 ! Includes
 !#include https://raw.githubusercontent.com/spiri-leo/spiri-list/main/blocklists/block_ads/adblock_elements.txt
 !#include https://raw.githubusercontent.com/spiri-leo/spiri-list/main/blocklists/block_ads/adblock_whitelist.txt
-!#include https://raw.githubusercontent.com/spiri-leo/spiri-list/main/blocklists/block_ads/adblock_antiadblock.txt
 !
 
 ! Block some advertisment domains or objects
