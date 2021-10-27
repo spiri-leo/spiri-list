@@ -1,103 +1,20 @@
-[Adblock Plus 2.0]
-! Title: spiri-list Annoyances Elements
-! Description: Annoyances elements list for adblockers
-
-! Elements
-
-! JS objects
-auto.ru##+js(abort-on-property-read, Object.prototype.getAdditionalBanners)
-auto.ru##+js(set-constant, window.AD2, undefined)
-championat.com##+js(abort-on-property-write, Object.prototype.getPlaceSelectorByBannerId)
-championat.com##+js(abort-on-property-read, getSelection)
-echo.msk.ru##+js(set-constant, Object.prototype.hasShadowDomSupport, undefined)
-echo.msk.ru##+js(set-constant, Object.prototype.BannerDirect, undefined)
-gazeta.ru##+js(abort-on-property-write, Object.prototype.getPlaceSelectorByBannerId)
-lenta.ru##+js(abort-on-property-write, Object.prototype.getPlaceSelectorByBannerId)
-megogo.ru##+js(addEventListener-defuser, load, adBlock)
-kinopoisk.ru##+js(cookie-remover, /blcrm|bltsr|engineer|computer/)
-www.kinopoisk.ru##+js(abort-on-property-read, Object.prototype.BannerHtmlBase)
-rambler.ru##+js(addEventListener-defuser, DOMContentLoaded, .j-mini-player__video)
-rambler.ru##+js(abort-on-property-write, Object.prototype.getPlaceSelectorByBannerId)
+!
+! Cookie elements
 !
 
-! CSS objects
-2ip.ru##body:style(overflow: auto !important;)
-avast.com##.message-bar--dark.message-bar--link.message-bar
-aliexpress.ru##.styles_webpushUi__2J0y_
-allergology.ru##div[data-region] > div.group
-adguard.com##.flash__text
-adguard.com##.flash__wrapper
-adguard.com##.flash
-blog.malwarebytes.com##.col-xs-6.col-md-4.col-md-offset-4
-blog.malwarebytes.com##.gradient-green.consumer.topbelow.promotion-banner.active
-cyber.sports.ru##.match-summary__betting-bar
-cyber.sports.ru##.match-teaser__betting-bar
-chrome.google.com##[role="dialog"][aria-labelledby="promo-header"]
-duckduckgo.com###powered_by.results--powered
-domclick.ru##div[class^="cookie-root"]
-echo.msk.ru##div.first[style]
-echo.msk.ru##div[id]:empty
-echo.msk.ru##div[id]:style(min-height: 0 !important)
-echo.msk.ru##div[style="padding: 10px 0px 0px 0px;"]
-echo.msk.ru##div[style="width:236px;height:100px;"][id]
-echo.msk.ru##div[style^="padding:"][style*=" 0px 0px;"]
-forum.auto.ru##.b-forum-wrapper a[href^="https://o.yandex.ru/form/"]
-fandom.com##body:style(margin-top: 0!important;)
-fast-computer.su##.click
-fast-computer.su##.last-click
-fontanka.ru##body:style(overflow: visible!important;)
-gazeta.ru##.b_telegram
-habr.com##.tm-project-block_variant-courses
-habr.com##.tm-project-block_variant-tasks
-iz.ru##.get_news_link
-iz.ru##.yandexzen
-kubnews.ru##.subscribe-channel
-www.kinopoisk.ru##a[href="https://hd.kinopoisk.ru/?source=kinopoisk_head_button"]
-www.kinopoisk.ru##div[class^="styles_root"] > div[data-tid] + div[class*="blockClassName"]:has(> div[class] a[href^="https://hd.kinopoisk.ru/?source"])
-www.kinopoisk.ru##div[class^="styles_root"] > div[data-tid]:has(> div[class*="blockClassName"] a[href*="trailer_promo"])
-lenta.ru##body:style(overflow: visible!important;)
-lenta.ru##a[href^="https://prime.rambler.ru/promo/"]
-nytimes.com##body:style(overflow: initial !important)
-old.reddit.com##.premium-banner-outer
-patreon.com##body div[aria-describedby="banner-description"]
-patreon.com#$##lanyard_root { display: none !important; }
-patreon.com#$#body { overflow: auto !important; }
-pikabu.ru##.email-block
-pikabu.ru##.sidebar-block_mail
-qna.habr.com##.hidden.notices-container--bottom-fixed.notices-container
-rambler.ru##._1VtI
-russian.rt.com##.follows-channel_tiktok.follows-channel_top-middle.follows-channel
-rbc.ru##.js-push-allow
-rbc.ru##.js-push-allow.push-allow
-rbc.ru##.subscription-popup
-rbc.ru##.popup_push
-sports.ru##a[rel="nofollow"]> img[height="151"][width="731"]
-sports.ru##p > a[rel="nofollow"] > img[height="40"][width="450"]
-sports.ru,tribuna.com###branding-layout > *:not(div):not([class]):not(id):not(style)
-sports.ru##.ufc-wink
-sourceforge.net###newsletter-floating
-startpage.com##.add-homescreen--en.add-homescreen
-startpage.com##.widget-install-sp
-startpage.com##.widget-install-sp--dark.widget-install-sp
-supersadovnik.ru##.js-bother.bother
-twitter.com###layers > div[class] > div[class] > div[class] > div[class]:has(> div[class] > div[class] > div[class] > div[class] > div[class] > a[href="/login"])
-tiktok.com##.app-promotion
-unsplash.com###app > div > div[data-test="editorial-route"] + div
-welcome.adguard.com##.topline
-yahoo.com##.Mb-20.hpsetbannerpromotdv2wafer
-yandex.ru##.yabrowser-promo
-yandex.ru##.popup2_visible_yes.popup2_js_inited.i-bem.colorize-xb4ah1.i-dbn-cookie.distr-popup_hide-on-popups_yes.distr-popup_animation_fade-show-bounce.distr-popup_shadow_yes.distr-popup_motley_white-old.distr-popup_type_download.distr-popup_layout_flat.distr-popup_location_right-only.distr-popup.popup2_view_classic.popup2_direction_bottom-right.popup2_theme_clear.popup2_target_position.popup2
-yoomoney.ru##.qa-timeline > [class*='StyledDecorator']:has(.qa-offer-events)
-youtube.com##div[class^="ytd-consent"]
-youtube.com##.yt-consent
-youtube.com###notification-footer
-youtube.com###alert-banner > .ytd-browse > .yt-alert-with-actions-renderer
-youtube.com##.ytp-cards-teaser
-youtube.com##.ytp-paid-content-overlay
-youtube.com##.ytp-title-channel
-youtube-nocookie.com##.ytp-cards-teaser
-youtube-nocookie.com##.ytp-paid-content-overlay
-youtube-nocookie.com##.ytp-pause-overlay
+! Site specific
+activation-keys.ru##.clearfy-cookie--bottom.clearfy-cookie
+fandom.com##body:style(overflow: auto !important;)
+giphy.com##div[class^="flash-message"]
+i.mi.com##.policy-2VduG
+megogo.ru##.agreement-notify_v1
+!
+
+! For more sites specific
+##.grecaptcha-badge
+##.js-consent-banner
+###onetrust-banner-sdk
+###onetrust-consent-sdk
 !
 
 !

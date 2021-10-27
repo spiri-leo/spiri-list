@@ -1,6 +1,9 @@
+!
+! Anti Adblock (beta)
+!
 [Adblock Plus 2.0]
-! Title: spiri-list Adblock Anti AdBlock
-! Description: Anti-Adblock blocklist for adblockers
+! Title: spiri-list Adblock Anti Adblock
+! Description: Anti Adblock blocklist for adblockers
 
 ! Elements
 rambler.ru##.rui__3_IS5.rui__3EEui

@@ -1,6 +1,6 @@
-[Adblock Plus 2.0]
-! Title: spiri-list Social Elements
-! Description: Social elements blocklist for adblockers
+!
+! Social elements
+!
 
 ! Elements
 
@@ -15,6 +15,8 @@ fontanka.ru##ul > li[data-rg-name]
 gazeta.ru##.b_social_sharing
 iz.ru##.share_bottom2
 kp.ru###allrecords > div.t-rec:has(> div[class^="t-container"] div.ya-share2)
+kp.ru##div[class^="styled__SharePartial"]
+kp.ru##button[class*="styled__ShareButton-"]
 kinopoisk.ru##.ya-share2
 lenta.ru##.b-socials__sharing
 lenta.ru##.social-snippet

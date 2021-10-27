@@ -1,6 +1,6 @@
-[Adblock Plus 2.0]
-! Title: spiri-list Trackers Bitcoin Miners
-! Description: Bitcoin miners blocklist for adblockers
+!
+! Bitcoin miners
+!
 
 ! Domains
 ||cnhv.co^

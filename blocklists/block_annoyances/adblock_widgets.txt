@@ -1,6 +1,6 @@
-[Adblock Plus 2.0]
-! Title: spiri-list Annoyances Widgets
-! Description: Annoyances widgets blocklist for adblockers
+!
+! Annoyances widgets (like chats, and more)
+!
 
 ! Widgets directories
 

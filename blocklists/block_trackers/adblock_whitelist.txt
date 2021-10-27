@@ -1,6 +1,6 @@
-[Adblock Plus 2.0]
-! Title: spiri-list Trackers Whitelist
-! Description: Trackers whitelist for adblockers
+!
+! Trackers whitelist
+!
 
 ! Site specific
 @@||apple.com/metrics/data-relay/*/scripts/data-relay.js

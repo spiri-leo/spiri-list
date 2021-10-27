@@ -180,6 +180,7 @@
 /adroll.
 /ads-min.
 /async-ads.js
+/banner.gif$domain=~e.aviasales.ru
 /curveball/ads/*
 -core-ads.
 /js/dfp-
