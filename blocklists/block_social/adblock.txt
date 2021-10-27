@@ -4,6 +4,7 @@
 
 ! Includes
 !#include https://raw.githubusercontent.com/spiri-leo/spiri-list/main/blocklists/block_social/adblock_elements.txt
+!#include https://raw.githubusercontent.com/spiri-leo/spiri-list/main/blocklists/block_social/adblock_whitelist.txt
 !
 
 ! Domains
