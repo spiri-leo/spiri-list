@@ -9,3 +9,6 @@ Welcome to spiri-list! This is filter to block ads, social widgets, annoyances, 
 
 ## Warning!
 Some blocklists get problem. If problem is finded, contact on issues on a GitHub repo. And you can send issue if ads and trackers and more is not blocked on a spiri-list filters.
+
+## Report issues
+You can report issues on [GitHub](https://github.com/spiri-leo/spiri-list/issues), [My forum](https://cpiridon479.wixsite.com/spiri-list-forums/forum), and [Reporting tool](https://cpiridon479.wixsite.com/spiri-list-forums/report). Or send on my emails: spiridonowlev@yandex.com, workmaillev@inbox.ru.
