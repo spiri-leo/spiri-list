@@ -5,6 +5,12 @@
 <h1 align="center">spiri-list</h1>
 <h3 align="center">The blocklist to block ads, trackers, and more of internet.</h3>
 </br>
+<p align="center">
+<img src="https://img.shields.io/badge/syntax-uBlock-red.svg" alt="badge"/>
+<img src="https://img.shields.io/github/repo-size/spiri-leo/spiri-list.svg" alt="badge"/>
+<img src="https://img.shields.io/github/issues/spiri-leo/spiri-list.svg" alt="badge"/>
+</p>
+
 Welcome to spiri-list! This is filter to block ads, social widgets, annoyances, and more!
 
 ## Warning!
