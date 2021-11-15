@@ -5,7 +5,16 @@
 <h1 align="center">spiri-list</h1>
 <h3 align="center">The blocklist to block ads, trackers, and more of internet.</h3>
 </br>
+<p align="center">
+<img src="https://img.shields.io/badge/syntax-uBlock-red.svg" alt="badge"/>
+<img src="https://img.shields.io/github/repo-size/spiri-leo/spiri-list.svg" alt="badge"/>
+<img src="https://img.shields.io/github/issues/spiri-leo/spiri-list.svg" alt="badge"/>
+</p>
+
 Welcome to spiri-list! This is filter to block ads, social widgets, annoyances, and more!
 
 ## Warning!
 Some blocklists get problem. If problem is finded, contact on issues on a GitHub repo. And you can send issue if ads and trackers and more is not blocked on a spiri-list filters.
+
+## Report issues
+You can report issues on [GitHub](https://github.com/spiri-leo/spiri-list/issues), [My forum](https://cpiridon479.wixsite.com/spiri-list-forums/forum), and [Reporting tool](https://cpiridon479.wixsite.com/spiri-list-forums/report). Or send on my emails: spiridonowlev@yandex.com, workmaillev@inbox.ru.
