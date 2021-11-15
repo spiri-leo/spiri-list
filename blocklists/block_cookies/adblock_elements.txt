@@ -1,21 +1,132 @@
 [Adblock Plus 2.0]
 ! Title: spiri-list Cookies Elements
 ! Description: Cookies elements blocklist for adblockers
+! Homepage: https://github.com/spiri-leo/spiri-list
+!
+! To report the incorrect blocking or unblocked content, you can report on
+! the forum, reporting tool, on a email, and on GitHub.
+!
+! GitHub issues:   https://github.com/spiri-leo/spiri-list/issues
+! Forum:           https://cpiridon479.wixsite.com/spiri-list-forums/forum
+! Reporting tool:  https://cpiridon479.wixsite.com/spiri-list-forums/report
+! Yandex email:    spiridonowlev@yandex.com
+! Mail.ru email:   workmaillev@inbox.ru
+!
 
 ! Site specific
-activation-keys.ru##.clearfy-cookie--bottom.clearfy-cookie
+2gis.ru##._nlniiu
+acquire.io##.animate.home-announcement-iris
+aliexpress.ru##.styles_wrapper__3isR2
+aliexpress.ru##div[class^="MainLayout_root__"] > div[class^="styles_wrapper__"] ~ div[data-spm="toprank"] ~ div[class^="styles_wrapper__"]
+artlebedev.ru##.als-cookie-button
+aliexpress.ru##.styles_wrapper__3isR2
+bing.com##html:style(overflow: auto !important)
+binance.com##.css-pq341s
+binance.com##.css-188diss
+cnet.com##.onetrust-pc-dark-filter
+c.mi.com##.cookie-setting-bottom-bar
+career.lenta.com##.use-cookie-confirmation
+chocolatey.org###cookieNoticeAlert
 domclick.ru##div[class^="cookie-root"]
+detmir.ru###app-container > div[class] > main ~ div[class]:has(> div[class] > p > a[href="/pages/cookies/"])
 fandom.com##body:style(overflow: auto !important;)
 giphy.com##div[class^="flash-message"]
+google.com##div[class*="chr-cookie-banner"]
+gorodche.ru##.t-i-agree
 i.mi.com##.policy-2VduG
+iobit.com##.float-bar
+i.ua##.Disclaimer
+investing.com###sideNotificationZone
+ipipe.ru##.nw_footer_cntnr
+kaida-fish.ru##.custom_message
+livemaster.ru##.cookieconsent-ru--show
+litres.ru##.cookie-agreement
 megogo.ru##.agreement-notify_v1
+mi.com##div[id^="J_cookie_settings_"]
+minitool.com##.bottom-cookie-wrap
+manychat.com##.CookieBumper-module--wrap--3gAbh
+myresume.ru##.rulesInfo
+mediafire.com###cookie-accept-footer
+netology.ru##div[class*="-CookiesAgreement-"]
+rutube.ru##.cookie-consent
+soundcloud.com##.announcements
+spec-komp.com##.botton-info-wrapper
+speedtest.net##.notification-container
+sima-land.ru###cookie-agreement
+texterra.ru##.modal-cookie
+truvid.com##.CookiesAgreement__container_3YTbR
+ua-football.com##.policy-mes
+wikihow.com###gdpr
+weather.com##div[id^="WxuPrivacyDataNotice-"]
+!
+
+! JS objects
+ubuntu.com##+js(addEventListener-defuser, DOMContentLoaded, js-revoke-cookie-manager)
 !
 
 ! For more sites specific
+##app-cookie-consent-popup
+##.akismet_comment_form_privacy_notice
+##.bx-main-cookie-policy
+##.cookie-manager
+##.cookie-alert
+##.cookie-box
+##.cookie-box:not(body):not(html)
+##.cookie-message:not(html):not(body)
+##.cookie_bar
+##.cookie-bar:not(body)
+##.cookie-bar:not(body):not(html)
+##.cookie-content
+###cookie-alert
+###cookieBar
+##.cookiePolicy
+##.cookiePolicy:not(body):not(html)
+##.cookie-notice
+###cookie-notice
+##.cookie-revoke-hidden
+##.cookie-notice-container
+##.cookie-notice:not(body):not(html)
+##.cookie-consent:not(body):not(html)
+##.cookie-disclaimer:not(body)
+###cookie-law-info-again
+###cookie-law-info-bar
+###cookie_hdr_showagain
+###cookie-banner-wrapper
+##.cookie-banner-wrapper
+##.cookies-notification
+##.cookies-notification:not(html):not(body)
+###cookies-banner
+##.cookies-banner
+###consent_blackbar
+##.consent-banner
+###cliSettingsPopup
+###cookie-law-bar
+###cookie_policy
+##.cookie_policy_message
+##.cookie-policy-popup
+###cookie-policy-popup
+###cookie-agreement
+##.chr-cookie-banner
+###clearfy-cookie
+##div[class^="cookie-banner"]
+##div[class^="cookies-banner"]
+##div[class^="cookie-consent_"]
+##div[class^="cookie-notification_"]
+##div[data-cookie]
+##.footer__cookies
 ##.grecaptcha-badge
+###gdpr_accept
 ##.js-consent-banner
+##.js-cookie-notice
+##.js-cookie-bar
+##.js-cookie-notation
 ###onetrust-banner-sdk
 ###onetrust-consent-sdk
+###ot-sdk-btn:not(button)
+##.ot-sdk-show-settings
+##.policy-box
+###uhfCookieAlert
+##.wpgdprc-consent-bar
 !
 
 !

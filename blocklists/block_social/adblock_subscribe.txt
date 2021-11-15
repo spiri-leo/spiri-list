@@ -1,0 +1,116 @@
+[Adblock Plus 2.0]
+! Title: spiri-list Social Subscribe Blocklist
+! Description: Subscribe blocklist for adblockers (like (Follow) and blocks social on a footer and more.)
+! Homepage: https://github.com/spiri-leo/spiri-list
+!
+! To report the incorrect blocking or unblocked content, you can report on
+! the forum, reporting tool, on a email, and on GitHub.
+!
+! GitHub issues:   https://github.com/spiri-leo/spiri-list/issues
+! Forum:           https://cpiridon479.wixsite.com/spiri-list-forums/forum
+! Reporting tool:  https://cpiridon479.wixsite.com/spiri-list-forums/report
+! Yandex email:    spiridonowlev@yandex.com
+! Mail.ru email:   workmaillev@inbox.ru
+!
+
+! Elements (only elements)
+1c-bitrix.ru##.footer-social-networks
+1prime.ru##.footer__social
+7dach.ru##.soclink
+7dach.ru##.sidebar-social
+adguard.com##.footer__icons--social
+audit-it.ru##div.col_nav.col:nth-of-type(4)
+autovzglyad.ru##.header-socials-icons
+reports.adguard.com##.footer__icons
+avg.com##.social-connect
+avast.com##.footer-social-icons
+binance.com##.css-647kiw
+baby.ru##.grid_d_columns_min_3
+baby.ru##div.footer__column > .grid_rows.grid_size_l.grid_m_size_m.grid > div
+brobank.ru##.socials
+cnet.com##.c-footer_social
+cosmo.ru##.footer__socials
+citydrive.ru##.footer-social
+city-mobil.ru##.SocialGroup_socialGroup__1Hnt5
+chipdip.ru##.footer__info-social
+duckduckgo.com##ul:nth-of-type(5)
+duckduckgo.com##.footer__links
+duckduckgo.com##.social
+edimdoma.ru##.footer-social
+forumhouse.ru##.fh-b-common-footer-short__row_social-menu
+freepik.com##.mg-bottom-lv3
+freepik.com##.alignl > .font-md
+gazeta.ru##.b_footer-social
+githubstatus.com##.lh-condensed-ultra
+github.blog##.site-footer__social-list
+gitbook.com##.social-links
+hostinger.ru##.footer-new-holder-right-holder__socials
+habr.com##.tm-footer__social
+iobit.com##div.row:nth-of-type(4)
+it-tehnik.ru##.social-links
+it-tehnik.ru##div.widget-soc
+lenta.ru##.b-socials-subscribe
+livemaster.ru##.footer__social
+livelib.ru##div.page-footer-soc:nth-of-type(4)
+lifehacker.ru##div.footer-menu:nth-of-type(2)
+lamoda.ru##div[class^="footer__column-icons"] a[rel]
+malwarebytes.com##.soc-icon-row
+metrika.yandex.ru,metrika.yandex.com##.social-links
+maximonline.ru##.footer__social-icons
+medialeaks.ru##.header__section_social
+medialeaks.ru##p.footer__navigation-title:nth-of-type(3)
+medialeaks.ru##ul.footer__navigation-items:nth-of-type(3)
+netology.ru##.shared-components-Footer-footer-module__social--awJfj
+pravmir.ru##.hh-header-bottom__social-networks
+pravmir.ru##.hh-footer__social-networks
+prooneplus.ru###custom_html-2
+kinopoisk.ru##.styles_socialMenu__3wPbP
+kinopoisk.ru##.social-icons
+karusel-tv.ru##.footerRow__footerSocial
+kommersant.ru##.footer_social
+kaspersky.ru##.DesktopFooter_socialIcons__2aOoz
+kaspersky.ru##.Footer_social__1LXb1
+kiberbulling.net##.experience
+klops.ru##div.col-md-3.col-xs-6:nth-of-type(4)
+klops.ru##.detail-social-links
+kinsta.com##.site-footer__social
+muz-tv.ru##.footer__share
+rlsnet.ru##.footer__socials
+rlsnet.ru##.footer__s-text
+rlsnet.ru##.social-links-desctop
+rambler.ru##.rui__26R2r
+reg.ru##.b-socialnets
+rozetked.me##.r_header__h_socials-icons
+russian7.ru##.header-menu
+riamo.ru##.informer--sn
+riamo.ru##.footer--line-sn
+shararam.ru##.join
+smeshariki.ru##.join
+superuser.com##.fs-fine.site-footer--copyright > .-list
+statcounter.com##.clearfix.col-span-6.col > .clearfix
+securitylab.ru##.header-social-links
+securitylab.ru##.text-center > .social-links
+securitylab.ru##.text-center > .mb-2
+softonic.com##div.page-footer__col:nth-of-type(4)
+skyteach.ru##.site-footer__social
+sima-land.ru##.BARQi
+tosdr.org##center
+tosdr.org##.social-icons
+tophotels.ru##div.footer__btn-item:nth-of-type(1)
+tophotels.ru##.footer__telegram
+top.mail.ru##.i-twitter
+tutorialrepublic.com##.social
+thewindowsclub.com##.social-icons
+tourister.ru##ul.nt-foot-links:nth-of-type(3)
+ubuntu.com##.p-inline-list-icons
+vms.drweb.ru##.cursorDefault.margYS
+vms.drweb.ru##.main_green_4.uppercase.fontXS
+vashurok.ru##.footer__social
+vokrug.tv##.social
+vbr.ru##.footer-links-soc
+weather.com##.Footer--socialContainer--2gmQD
+withgoogle.com##.link.social-links
+womanhit.ru##.header-panel__social
+zapier.com##.css-1tcjrmo
+yaustal.ru##.f-soc
+!

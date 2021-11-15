@@ -2,8 +2,19 @@
 ! Anti Adblock (beta)
 !
 [Adblock Plus 2.0]
-! Title: spiri-list Adblock Anti Adblock
-! Description: Anti Adblock blocklist for adblockers
+! Title: spiri-list Adblock Anti Adblock Beta
+! Description: Anti Adblock beta blocklist for adblockers
+! Homepage: https://github.com/spiri-leo/spiri-list
+!
+! To report the incorrect blocking or unblocked content, you can report on
+! the forum, reporting tool, on a email, and on GitHub.
+!
+! GitHub issues:   https://github.com/spiri-leo/spiri-list/issues
+! Forum:           https://cpiridon479.wixsite.com/spiri-list-forums/forum
+! Reporting tool:  https://cpiridon479.wixsite.com/spiri-list-forums/report
+! Yandex email:    spiridonowlev@yandex.com
+! Mail.ru email:   workmaillev@inbox.ru
+!
 
 ! Elements
 rambler.ru##.rui__3_IS5.rui__3EEui

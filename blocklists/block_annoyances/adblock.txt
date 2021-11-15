@@ -1,30 +1,68 @@
 [Adblock Plus 2.0]
 ! Title: spiri-list Annoyances
 ! Description: Annoyances for adblockers
+! Homepage: https://github.com/spiri-leo/spiri-list
+!
+! To report the incorrect blocking or unblocked content, you can report on
+! the forum, reporting tool, on a email, and on GitHub.
+!
+! GitHub issues:   https://github.com/spiri-leo/spiri-list/issues
+! Forum:           https://cpiridon479.wixsite.com/spiri-list-forums/forum
+! Reporting tool:  https://cpiridon479.wixsite.com/spiri-list-forums/report
+! Yandex email:    spiridonowlev@yandex.com
+! Mail.ru email:   workmaillev@inbox.ru
+!
 
 ! Includes
 !#include https://raw.githubusercontent.com/spiri-leo/spiri-list/main/blocklists/block_annoyances/adblock_elements.txt
 !#include https://raw.githubusercontent.com/spiri-leo/spiri-list/main/blocklists/block_annoyances/adblock_widgets.txt
+!#include https://raw.githubusercontent.com/spiri-leo/spiri-list/main/blocklists/block_annoyances/adblock_widgets_elements.txt
 !
 
 ! Domains
+||7pisem.ru^$3p
+||esputnik.com^$3p
+||files.jumpoutpopup.ru^$3p,domain=~makedreamprofits.com
 ||getsitecontrol.com^$3p
+||js.driftt.com^$3p
 ||mod.calltouch.ru^$3p
+||majorworker.com^$3p
 ||pushwoosh.com^$3p
 ||push.world^$3p
+||powr.io^$3p
+||player.anyclip.com^$domain=thewindowsclub.com
 ||sendpulse.com^$3p
+||static.elfsight.com^$3p,domain=~cafemarta.ch
+||tawk.to^$3p
+||viapush.com^$3p
+||vitalectium.com^$3p
+||widget.trustpilot.com^$3p
+||webpushr.com^$3p
+||webpushs.com^$3p
 !
 
 ! Annoyances directories
 
 ! Site specific
+||a.mailmunch.co/app/$script,3p
+||fb.ru/front/build/comments.js$domain=fb.ru
 ||getsitecontrol.com/widgets/$3p
+||g.alicdn.com/gfe-ug/web-push-client*/*/iframemessage.js
+||limg.imgsmail.ru/informers/vk-slides/
 ||redditstatic.com/*/pushnotifications.
+||soccer.ru/sites/all/modules/webpush/webpush.js
+||static.popmechanic.ru/service/loader.js$3p
+||securitylab.ru/js/cpb.js
+||vesti.ru/js/push/
+||youla.ru/build/pwa/platform/services/webpush-*.js
 !
 
 ! For more sites specific
+/crm/site_button/loader_*.js
 /firebase-messaging.js$domain=ukranews.com|comments.ua|meduza.io|coub.com|porno90.me|cnnamador.com|giallozafferano.it|wcostream.com|fptplay.vn|jooble.org|mobile01.com|myinstants.com|pdalife.ru|rg.ru|m.iguides.ru|donanimhaber.com|profile.ru|womanhit.ru|news.noteru.com|narodna-pravda.ua|newstm.in|sabah.com.tr|dreamstime.com|popbee.com|avtovzglyad.ru|allbasketball.org|tw.news.yahoo.com|takvim.com.tr|jn.pt|ria.ru|pars.host|calculator-online.net|operanewsapp.com|ahaber.com.tr|tamindir.com|concursosnobrasil.com.br|kompas.com|news.ebc.net.tw|recyclingtoday.com|homedecoratione.com|khersondaily.com|mirtesen.ru|womanhit.ru|belsat.eu|gearbest.com|op.gg|novayagazeta.ru|pocket-lint.com|turunculevye.com
 /pushwoosh-
+-push-notifications/$script
+/service-worker.js$domain=lsm.lv|mirror.co.uk|hclips.com|ladbible.com|stfly.me|ladbible.com|dailystar.co.uk
 !
 
 !

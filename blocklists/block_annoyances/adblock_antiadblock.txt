@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Title: spiri-list Trackers Bitcoin Miners
-! Description: Bitcoin miners blocklist for adblockers
+! Title: spiri-list Annoyances Anti-Adblock Blocklist
+! Description: Annoyances Anti-Adblock blocklist for adblockers
 ! Homepage: https://github.com/spiri-leo/spiri-list
 !
 ! To report the incorrect blocking or unblocked content, you can report on
@@ -13,9 +13,10 @@
 ! Mail.ru email:   workmaillev@inbox.ru
 !
 
-! Domains
-||cnhv.co^
-||coin-hive.com^
-||coinhive.com^
-||cointraffic.io^
+! Site specific whitelist
+@@||static.1tv.ru/player/config/banner.gif
+!
+
+! JS objects
+brainly.com##+js(set-constant, jsData.adsEnabled, false)
 !

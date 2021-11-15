@@ -3,5 +3,26 @@
 ! Description: Social whitelist for adblockers
 
 ! Site specific
+! @@||yastatic.net/share2/share.js on a RU AdList
 @@||yastatic.net/share*/share.js$domain=sworm.io|trans.ru|chepetsk.ru|iz.ru|thequestion.ru|readovka.ru|mazda.ru|vse.fm|kinogo-720.net|xn--80aneaaefcxzcih6g1e.xn--p1ai|playground.ru|foxtrot.com.ua|biglion.ru|master-of-orion.ru|ktk.kz|universarium.org|pix.playground.ru|xn--80aaelc4ars1a7ab6d.xn--p1ai|kramola.info|myfin.by|zona.plus|culture.ru|yitservice.ru|open.kzn.ru
+!
+
+! For more sites specific
+
+!
+
+! CSS elements
+
+! For sites
+browserstack.com#@#.social-menu
+cnet.com#@#.share-button
+cosmo.ru#@#.social-sharing
+medialeaks.ru#@#.social-widgets
+rg.ru#@#.b-social
+!
+
+! For more sites
+
+!
+
 !

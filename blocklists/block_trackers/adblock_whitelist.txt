@@ -1,10 +1,38 @@
 [Adblock Plus 2.0]
 ! Title: spiri-list Trackers Whitelist
 ! Description: Trackers whitelist for adblockers
+! Homepage: https://github.com/spiri-leo/spiri-list
+!
+! To report the incorrect blocking or unblocked content, you can report on
+! the forum, reporting tool, on a email, and on GitHub.
+!
+! GitHub issues:   https://github.com/spiri-leo/spiri-list/issues
+! Forum:           https://cpiridon479.wixsite.com/spiri-list-forums/forum
+! Reporting tool:  https://cpiridon479.wixsite.com/spiri-list-forums/report
+! Yandex email:    spiridonowlev@yandex.com
+! Mail.ru email:   workmaillev@inbox.ru
+!
 
 ! Site specific
 @@||apple.com/metrics/data-relay/*/scripts/data-relay.js
+@@||check.ddos-guard.net/check.js$script
 @@||dropboxstatic.com/static/js/modules/clean/ux_analytics/$script,domain=dropbox.com
+@@||dev.visualwebsiteoptimizer.com/j.php
+@@||flipboard.com/setcookie?$1p
+@@||google-analytics.com/ga.js$domain=7digital.com|account.hirezstudios.com|aebn.net|aftonbladet.se|alatest.com|americanapparel.net|apps.facebook.com|asus.com|avast.com|babylon.com|bangbros.com|banshee.fm|billabong.com|billboard.com|bolha.com|bookadumpster.com|boostmobile.com|break.com|brobible.com|change.org|cinemassacre.com|comingsoon.net|everydayhealth.com|dailyfreegames.com|dailysteals.com|echo.msk.ru|ehow.com|eonline.com|filmweb.pl|fora.tv|fossil.com|foxsports.com.au|frequency.com|g4tv.com|gasbuddy.com|globaltv.com|google.com|gumtree.com.au|hoerzu.de|imageshack.us|intellicast.com|jetbrains.com|jobsite.co.uk|justjared.com|juxtapoz.com|kaspersky.pl|kleinanzeigen.ebay.de|latimes.com|lemonfree.com|liptonicetea.com|logitech.com|lucasarts.com|mashable.com|maxcdn.com|medonet.pl|meetme.com|mevio.com|mommyish.com|newyorker.com|nme.com|nuts.co.uk|opendns.com|oyster.com|philips.com|photobucket.com|priceme.co.nz|priestville.org|salon.com|search.diy.com|seekingalpha.com|sundance.org|techbargains.com|tempe12.com|theblaze.com|thegrindstone.com|thevine.com.au|theweek.com|threatfire.com|timberland.com|tomshardware.com|tube8.com|tvunetworks.com|tweetgrid.com|umbro.com|videochart.net|weeworld.com|wonka.com|xda-developers.com|yellow.co.nz|youtube.com|zoo.org.au
+@@||googletagmanager.com/gtag/js$domain=malwaretips.com
+@@||googletagmanager.com/gtag/js$domain=riamo.ru
+@@||js.monitor.azure.com/scripts/*/ms.analytics-web-*.min.js$domain=mediastream.microsoft.com
 @@||mc.yandex.ru/metrika/tag.js$domain=iz.ru
+@@||mc.yandex.ru/metrika/tag.js$domain=riamo.ru
+@@||mc.yandex.ru/metrika/watch.js$domain=yaplakal.com|yap.ru
+@@||media.kaspersky.com/tracking/omniture/s_code_single_suite.js
 @@||securemetrics.apple.com/b/ss/$image
+@@||scorecardresearch.com/c2/plugins/streamingtag_plugin_jwplayer.js
+@@||yabs.yandex.ru$domain=yandex.by|yandex.com.tr|yandex.kz|yandex.ru|yandex.ua
+!
+
+! CSS elements specific
+cyber.dabamos.de#@#img[width="88"][height="31"]
+nnmclub.to#@#img[width="88"][height="31"]
 !

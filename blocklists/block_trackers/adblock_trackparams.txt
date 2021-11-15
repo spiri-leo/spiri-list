@@ -1,0 +1,65 @@
+[Adblock Plus 2.0]
+! Title: spiri-list Track URL Parameters
+! Description: Track URL parameters blocklist for adblockers
+! Homepage: https://github.com/spiri-leo/spiri-list
+!
+! To report the incorrect blocking or unblocked content, you can report on
+! the forum, reporting tool, on a email, and on GitHub.
+!
+! GitHub issues:   https://github.com/spiri-leo/spiri-list/issues
+! Forum:           https://cpiridon479.wixsite.com/spiri-list-forums/forum
+! Reporting tool:  https://cpiridon479.wixsite.com/spiri-list-forums/report
+! Yandex email:    spiridonowlev@yandex.com
+! Mail.ru email:   workmaillev@inbox.ru
+!
+
+! Parameters
+
+! Site specific
+||adguard.com^$removeparam=aid
+!
+
+! For services
+
+! BiliBili (https://github.com/AdguardTeam/AdguardFilters/pull/99685)
+||*.bilibili.com^$removeparam=share_source
+||*.bilibili.com^$removeparam=spm_id_from
+||*.bilibili.com^$removeparam=share_medium
+||*.bilibili.com^$removeparam=share_plat
+||*.bilibili.com^$removeparam=share_session_id
+||*.bilibili.com^$removeparam=share_source
+||*.bilibili.com^$removeparam=share_tag
+||*.bilibili.com^$removeparam=timestamp
+||*.bilibili.com^$removeparam=unique_k
+||search.bilibili.com^$removeparam=from_source
+||*.bilibili.com^$removeparam=from
+||*.bilibili.com^$removeparam=seid
+!
+! Google
+||google.*/search$removeparam=dpr
+||google.*/search$removeparam=gs_lcp
+||google.*/search$removeparam=ei
+||google.*/search$removeparam=source
+!
+! Twitter
+||twitter.com^$removeparam=ref_url
+||twitter.com^$removeparam=ref_src
+!
+! Yandex
+||www.yandex.$removeparam=clid
+://yandex.$removeparam=source
+!
+
+!
+
+! For more sites specific
+$removeparam=utm_term
+$removeparam=utm_id
+$removeparam=utm_source
+$removeparam=utm_medium
+$removeparam=utm_content
+$removeparam=utm_campaign
+$removeparam=yclid
+!
+
+!

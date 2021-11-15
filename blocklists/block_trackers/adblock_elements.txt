@@ -1,22 +1,43 @@
 [Adblock Plus 2.0]
-! Title: spiri-list Trackers elements
+! Title: spiri-list Trackers Elements
 ! Description: Trackers elements blocklist for adblockers
+! Homepage: https://github.com/spiri-leo/spiri-list
+!
+! To report the incorrect blocking or unblocked content, you can report on
+! the forum, reporting tool, on a email, and on GitHub.
+!
+! GitHub issues:   https://github.com/spiri-leo/spiri-list/issues
+! Forum:           https://cpiridon479.wixsite.com/spiri-list-forums/forum
+! Reporting tool:  https://cpiridon479.wixsite.com/spiri-list-forums/report
+! Yandex email:    spiridonowlev@yandex.com
+! Mail.ru email:   workmaillev@inbox.ru
+!
 
 ! Elements
 
 ! For sites
-www.google.*##+js(remove-attr, ping, div[id="search"] a[data-ved][ping])
-reddit.com##+js(no-xhr-if, method:POST url:/^https:\/\/www\.reddit\.com$/)
+audit-it.ru##.footer-counters
+liveinternet.ru##.counter
+liveinternet.ru##[href="//www.liveinternet.ru/stat/groups/li/"]
 reddit.com###hsts_pixel
-rambler.ru##+js(set-constant, window.top100, noopFunc)
-rambler.ru##+js(set-constant, window.top100Counter.sendCustomVars, noopFunc)
 yandex.ru##body > .popup[data-bem*="https://yabs.yandex.ru/count/"]
 !
 
+! JS elements
+www.google.*##+js(remove-attr, ping, div[id="search"] a[data-ved][ping])
+reddit.com##+js(no-xhr-if, method:POST url:/^https:\/\/www\.reddit\.com$/)
+rambler.ru##+js(set-constant, window.top100, noopFunc)
+rambler.ru##+js(set-constant, window.top100Counter.sendCustomVars, noopFunc)
+
 ! For more sites
 ##a[href^="http://top.mail.ru/jump"]
+##a[href^="https://metrika.yandex.ru/stat/"]
+##a[href^="http://top100.rambler.ru/"]
 ##img[src*="counter.yadro.ru"]
+! Note: problem on: https://github.com/AdguardTeam/AdguardFilters/issues/98923
 ##img[width="88"][height="31"]
+!
+###top100counter
 !
 
 !

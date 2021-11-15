@@ -1,25 +1,61 @@
 [Adblock Plus 2.0]
 ! Title: spiri-list Cookies
 ! Description: Cookie list for adblockers
+! Homepage: https://github.com/spiri-leo/spiri-list
+!
+! To report the incorrect blocking or unblocked content, you can report on
+! the forum, reporting tool, on a email, and on GitHub.
+!
+! GitHub issues:   https://github.com/spiri-leo/spiri-list/issues
+! Forum:           https://cpiridon479.wixsite.com/spiri-list-forums/forum
+! Reporting tool:  https://cpiridon479.wixsite.com/spiri-list-forums/report
+! Yandex email:    spiridonowlev@yandex.com
+! Mail.ru email:   workmaillev@inbox.ru
+!
 
 ! Includes
 !#include https://raw.githubusercontent.com/spiri-leo/spiri-list/main/blocklists/block_cookies/adblock_elements.txt
+!#include https://raw.githubusercontent.com/spiri-leo/spiri-list/main/blocklists/block_cookies/adblock_whitelist.txt
 !
 
 ! Domains
 ||consent.cmp.oath.com^
 ||cookielaw.org^$3p
+||clickio.mgr.consensu.org^$3p
+||fundingchoicesmessages.google.com^
+||gn-flagpoles.api.bbci.co.uk^
 ||optanon.blob.core.windows.net^
 ||privacy-center.org^$3p
-||gn-flagpoles.api.bbci.co.uk^
+||quantcast.mgr.consensu.org^$3p
 ||onetrust.com^$3p
 !
 
 ! Cookie directories
+
+! Site specific
+||assets.uchi.ru/assets/check_cookies$script
+||cdn.ziffstatic.com/sitenotice/evidon-sitenotice-bundle.js$domain=downdetector.ru|offers.com
+||parastorage.com/services/cookie-consent-banner-for-uou/
+||microsoft.com/mscc/
+!
+
+! For more sites specific
 /cookie-banner
+/cookie-consent/*
+/cookie-consent-
+/cookie_consent_
 /cookiepolicy_
+/cookienotice.
+-cookie-notice-
+/cookie-policy/*
+/cookies-for-comments/*
 _cookie_bar.
 /evidon-sitenotice-tag.
 /onetrust.
+/onetrust-
 /privacy/optanon/*
+.privacydatanotice.
+/zdconsent.
+!
+
 !

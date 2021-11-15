@@ -1,6 +1,17 @@
 [Adblock Plus 2.0]
 ! Title: spiri-list Social
 ! Description: Social widgets blocklist for adblockers
+! Homepage: https://github.com/spiri-leo/spiri-list
+!
+! To report the incorrect blocking or unblocked content, you can report on
+! the forum, reporting tool, on a email, and on GitHub.
+!
+! GitHub issues:   https://github.com/spiri-leo/spiri-list/issues
+! Forum:           https://cpiridon479.wixsite.com/spiri-list-forums/forum
+! Reporting tool:  https://cpiridon479.wixsite.com/spiri-list-forums/report
+! Yandex email:    spiridonowlev@yandex.com
+! Mail.ru email:   workmaillev@inbox.ru
+!
 
 ! Includes
 !#include https://raw.githubusercontent.com/spiri-leo/spiri-list/main/blocklists/block_social/adblock_elements.txt
@@ -8,24 +19,46 @@
 !
 
 ! Domains
+||likebtn.com^$3p
+||platform.linkedin.com^$3p
 ||sharethis.com^$3p
+||usocial.pro^$3p
 !
 
 ! Social directories
 
 ! Site specific
 ||addthis.com/*/addthis_widget.js$script
+||assets.pinterest.com/js/pinit.js^$3p
+||bookmark.hatenaapis.com/count/entry?url=
+||cdn.ampproject.org/v*/amp-social-share-
 ||developers.rambler.ru/likes*/widget.js
+||facebook.com/plugins/$domain=~facebook.com|~freepresets.com
+||facebook.com/*/plugins/$domain=~facebook.com
 ||graph.facebook.com/?id=$3p
+||graph.facebook.com/?*id=http://$3p
+||google.com^*/fastbutton?$3p
+||ghbtns.com/github-btn.html$3p
 ||ok.ru/dk?st.cmd$3p
 ||platform.twitter.com/widgets/tweet_button$3p
+||platform.twitter.com/widgets/follow_button$3p
 ||platform.twitter.com/js/button.$3p
+||pinterest.com/v1/urls/count.json$3p
+||reddit.com/api/info.json?$3p
 ||vk.com/share.php$3p
+||vk.com/js/api/share.js$3p
+||vk.com/widget_$domain=~redspell.ru|~vk.com
+||youtube.com/subscribe_embed?$3p
+||yandex.st/share/share.js$domain=~24auto.ru|~calculatewater.ru|~novoeradio.by|~pikucha.ru|~realty.dmir.ru|~transport.mos.ru|~yandex.com|~yandex.ru|~yandex.ua
+||yastatic.net/*/share.js$3p,domain=~globus.ru|~readovka.news|~possiblegroup.ru|~prcl.ru|~kinopoisk.ru|~alexey-osipov.ru|~avtodispetcher.ru|~fanserials.tv|~yandex.by|~yandex.kz|~yandex.ru|~yandex.ua|~gorod.gov.spb.ru|~sostav.ru|~recyclemap.ru|~106i9fm.ru|~radiorecord.ru|~radioc.ru|~100i6fm.ru|~99-1.ru|~alfafm.ru|~echoekb.ru|~echovolgograd.ru|~jamfm.ru|~olimpfm.ru|~radio-megapolis.ru|~sputnik107.ru|~sputnikfm.ru
 !
 
 ! More sites specific
 /likely.css
 /share42.js$domain=~dontreg.ru|~kinopovod.tv
+/social-likes.min.js$domain=~animego.org|~zastenchivosti.net|~gorod-812.ru|~sputnik.by|~sputnik-news.ee|~animalreader.ru|~ichip.ru|~keddr.com|~kino-max.com|~kino24x7.com|~make-3d.ru|~miuipro.ru|~omelchuck.ru|~podfm.ru|~serial-online.com|~sputniknews.com|~trinixy.ru|~kinogo-kinopoisk.net|~bobfilm-online.ru|~westernfilm.ru|~bobfilm.tv|~kinokrik.net|~kinogo720.net|~kinogo-net-co.ru|~kinoklad.net|~intex-press.by|~kino-max.org|~farming-simulator15.ru|~trikky.ru|~trv-science.ru|~unzensuriert.at|~lizaalert.beeline.ru|~megapolisonline.ru|~sputniknews.ru|~miuipro.info|~sputnik.kg|~1prime.ru|~mobnovelty.ru|~poisktehniki.ru
+/wp-content/plugins/instagram-feed/*$~stylesheet
+/wp-content/plugins/easy-social-share-buttons$~stylesheet,domain=~geekculture.co
 !
 
 !

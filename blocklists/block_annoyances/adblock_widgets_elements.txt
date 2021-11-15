@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
-! Title: spiri-list Annoyances Widgets
-! Description: Annoyances widgets blocklist for adblockers
+! Title: spiri-list Annoyances Widgets Elements
+! Description: Annoyances widgets elements blocklist for adblockers
 ! Homepage: https://github.com/spiri-leo/spiri-list
 !
 ! To report the incorrect blocking or unblocked content, you can report on
@@ -13,32 +13,29 @@
 ! Mail.ru email:   workmaillev@inbox.ru
 !
 
-! Widgets directories
+! Elements
+
+! Weather
+
+! Site specific
+
+!
+
+! For more sites specific
+###SinoptikInformer
+!
+
+!
 
 ! Chats
 
 ! Site specific
-||jivosite.com^$3p,domain=~jivosite.ru
-||widget.intercom.io^$3p,domain=~app.rezi.io|~intercom.com|~backerclub.co|~quidco.com|~green.energy
-||widget.surveymonkey.com^$3p
-||web.webformscr.com^$3p,domain=~sqatraining.ru
-||webim.ru^$3p
-!
-
-! For more sites specific
-/edu_chat.js
-!
-
-!
-
-! Weather widgets
-
-! Site specific
-||sinoptik.ua/informers$3p
+acquire.io##.acquire-livechat-widget
 !
 
 ! For more sites specific
 
 !
+
 
 !
