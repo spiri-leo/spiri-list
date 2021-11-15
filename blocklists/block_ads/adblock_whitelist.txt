@@ -67,6 +67,9 @@ ogorod.ru#@#div[id^="adfox_"]
 
 ! JS whitelist
 go.mail.ru#@#+js(set-constant, document.title, null)
+games.mail.ru#@#+js(set-constant, document.title, null)
+games.mail.ru#@#+js(set-constant, Object.prototype.adsRectangle, undefined)
+games.mail.ru#@#+js(set-constant, Object.prototype.adsTgb, undefined)
 kino.mail.ru#@#+js(set-constant, document.title, null)
 kino.mail.ru#@#+js(set-constant, Object.prototype.adsRectangle, undefined)
 kino.mail.ru#@#+js(set-constant, Object.prototype.adsTgb, undefined)

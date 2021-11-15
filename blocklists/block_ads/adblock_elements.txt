@@ -182,6 +182,11 @@ gismeteo.ru##div:has(> div > div[data-type="rbc"])
 gismeteo.ru##div[class^="media_frame"]
 gismeteo.ru##div[data-type="rbc"]
 google.com###atvcap
+games.mail.ru##.navigation__promo
+games.mail.ru##.informer
+games.mail.ru##.aside__banner
+games.mail.ru##.banner_static
+games.mail.ru##.link-game
 hackernoon.com##.adbytag
 hh.ru##.banner-place
 hh.ru##.index-banner

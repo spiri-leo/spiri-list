@@ -43,6 +43,7 @@ otzovik.com##+js(abort-on-property-read, Object.prototype.RtbLoadDone)
 otzovik.com##+js(abort-on-property-read, Object.prototype.RtbBlockRenderStart)
 gazeta.ru##+js(abort-on-property-write, Object.prototype.getPlaceSelectorByBannerId)
 gismeteo.ru##+js(abort-on-property-read, Object.prototype.getAdditionalBanners)
+games.mail.ru#@#+js(set-constant, Object.prototype.baits, undefined)
 lenta.ru##+js(abort-on-property-write, Object.prototype.getPlaceSelectorByBannerId)
 liveinternet.ru##+js(abort-on-property-read, Object.prototype.customDomain)
 megogo.ru##+js(addEventListener-defuser, load, adBlock)
@@ -133,6 +134,7 @@ glavred.info##.article__bottom
 gearbest.com##.siteAside_appLink
 gearbest.com##.layui-layer-shade
 gearbest.com##.newUserPop2
+games.mail.ru##.email-subscription
 geektonight.com##a[href^="https://click.linksynergy.com/deeplink"]
 habr.com##.tm-project-block_variant-courses
 habr.com##.tm-project-block_variant-tasks
@@ -209,6 +211,7 @@ music.yandex.ru##[class^="audio-advert"]
 music.yandex.ru##body > div[style^="min-height"] > .notify
 music.yandex.ru##div.page-root.page-root_no-player > div[class][data-b="2"][style]
 music.youtube.com##ytmusic-popup-container
+mail.ru##.b-header-agreements
 medium.com##html:style(overflow-y: visible!important;)
 mail.ru,citydrive.ru##.vk-slides-iframe
 medialeaks.ru##.homepage__social-banner

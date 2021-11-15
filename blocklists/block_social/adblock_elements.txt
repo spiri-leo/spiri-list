@@ -40,6 +40,7 @@ freepik.com##.button--share
 google.*##.kp-wholepage div[role="button"][jscontroller="Wct42"][aria-label] > span > span
 google.*##.SuUcIb
 gearbest.com##.goodsIntro_share
+games.mail.ru##.social:not(body)
 fontanka.ru##article[itemscope] ~ div[class]:has(> div[class] h4 + div > ul[class] > li[class] > a[href^="https://instagram.com/"][href$="_share"])
 fontanka.ru##section[itemprop="articleBody"] span[class] > img[alt="Поделиться"]:upward(1)
 fontanka.ru##ul > li[data-rg-name]
