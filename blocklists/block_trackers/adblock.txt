@@ -788,6 +788,8 @@
 /?sentry_key=
 /?sentry_version=
 /snowplow/*$script
+/snowplow-pixel.
+/snowplow-tracker.
 /stat.php?
 /_stat/log/*
 /__ssobj/core.js
