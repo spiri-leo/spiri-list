@@ -91,6 +91,7 @@ banki.ru##body:style(overflow: visible!important;)
 bing.com###bnp_hfly
 browserstack.com##.floating-banner
 browserstack.com##.promo-notification
+brainly.com##.section--3Yobl
 cyber.sports.ru##.match-summary__betting-bar
 cyber.sports.ru##.match-teaser__betting-bar
 cnews.ru##article > a.other-news-note
