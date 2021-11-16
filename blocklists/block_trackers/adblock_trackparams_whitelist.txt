@@ -1,0 +1,18 @@
+[Adblock Plus 2.0]
+! Title: spiri-list Track URL Parameters whitelist
+! Description: Track URL parameters whitelist for adblockers
+! Homepage: https://github.com/spiri-leo/spiri-list
+!
+! To report the incorrect blocking or unblocked content, you can report on
+! the forum, reporting tool, on a email, and on GitHub.
+!
+! GitHub issues:   https://github.com/spiri-leo/spiri-list/issues
+! Forum:           https://cpiridon479.wixsite.com/spiri-list-forums/forum
+! Reporting tool:  https://cpiridon479.wixsite.com/spiri-list-forums/report
+! Yandex email:    spiridonowlev@yandex.com
+! Mail.ru email:   workmaillev@inbox.ru
+!
+
+! Site specific
+@@||sendgb.com^$removeparam=utm_source
+!
