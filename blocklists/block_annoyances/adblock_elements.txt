@@ -250,7 +250,7 @@ rambler.ru##[class][data-special*=":okko:"]:upward(2)
 www.rambler.ru###main > div[class]:has(> div > div > div[class] > div[id] > script:has-text(if (!window.))
 www.rambler.ru##.commercial-branding div[class]:has(> div[class][style^="height:"]):not(:has(> a[href*="rambler.ru/"]))
 www.rambler.ru##main div[class][style^="height:"]:has(> div > div[style^="display:"]):style(height: 0 !important;)
-rambler.ru###main > div[class]:has(> div[class] > div:has-text(стартовой страницей
+rambler.ru###main > div[class]:has(> div[class] > div:has-text(стартовой страницей)
 rambler.ru##._2V85p.RWaUV
 rg.ru##.b-presentation_aside
 rg.ru##.b-favourites-sources__list
