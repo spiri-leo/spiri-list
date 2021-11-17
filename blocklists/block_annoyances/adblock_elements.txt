@@ -31,7 +31,7 @@ ign.com##+js(set-constant, admiral, noopFunc)
 ign.com##+js(abort-current-script, atob, googlefc)
 ign.com##+js(no-setTimeout-if, f.parentNode.removeChild(f), 100)
 msn.com##+js(remove-class, irisbactive-top, body)
-mail.yandex.*##+js(abort-on-property-read, Object.prototype.adv
+mail.yandex.*##+js(abort-on-property-read, Object.prototype.adv)
 mail.ru##+js(set-constant, Object.prototype.mimic, undefined)
 mail.ru##+js(set-constant, Object.prototype.baits, undefined)
 motor.ru##+js(abort-on-property-write, Object.prototype.getPlaceSelectorByBannerId)
