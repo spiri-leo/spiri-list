@@ -14,5 +14,5 @@
 !
 
 ! Site specific
-@@||sendgb.com^$removeparam=utm_source
+@@||sendgb.com/*/?utm_source=$removeparam=utm_source
 !
