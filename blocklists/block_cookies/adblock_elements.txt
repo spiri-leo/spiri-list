@@ -39,28 +39,35 @@ i.ua##.Disclaimer
 investing.com###sideNotificationZone
 ipipe.ru##.nw_footer_cntnr
 kaida-fish.ru##.custom_message
-livemaster.ru##.cookieconsent-ru--show
+livemaster.ru##.cookieconsent-ru
 litres.ru##.cookie-agreement
 megogo.ru##.agreement-notify_v1
 mi.com##div[id^="J_cookie_settings_"]
 minitool.com##.bottom-cookie-wrap
-manychat.com##.CookieBumper-module--wrap--3gAbh
+manychat.com##div[class^="CookieBumper-module--wrap--"]
 myresume.ru##.rulesInfo
 mediafire.com###cookie-accept-footer
+mts.by##.panel-cookie
 netology.ru##div[class*="-CookiesAgreement-"]
 rutube.ru##.cookie-consent
+rucore.net##.lwpcngNotice
 soundcloud.com##.announcements
 spec-komp.com##.botton-info-wrapper
 speedtest.net##.notification-container
 sima-land.ru###cookie-agreement
+shoppinglive.ru##.confirm-message-wrapper
+senler.ru##.S-Notifications
 texterra.ru##.modal-cookie
 truvid.com##.CookiesAgreement__container_3YTbR
 ua-football.com##.policy-mes
 wikihow.com###gdpr
+winamp.com##.cookies
 weather.com##div[id^="WxuPrivacyDataNotice-"]
 !
 
 ! JS objects
+help.senler.ru,gitbook.com,gitbook.io##+js(set-cookie, __gitbook_cookie_granted, no)
+sber-zvuk.com##+js(set-local-storage-item, accept_cookie, true)
 ubuntu.com##+js(addEventListener-defuser, DOMContentLoaded, js-revoke-cookie-manager)
 !
 
@@ -108,6 +115,7 @@ ubuntu.com##+js(addEventListener-defuser, DOMContentLoaded, js-revoke-cookie-man
 ###cookie-agreement
 ##.chr-cookie-banner
 ###clearfy-cookie
+##.clearfy-cookie
 ##div[class^="cookie-banner"]
 ##div[class^="cookies-banner"]
 ##div[class^="cookie-consent_"]
@@ -116,10 +124,12 @@ ubuntu.com##+js(addEventListener-defuser, DOMContentLoaded, js-revoke-cookie-man
 ##.footer__cookies
 ##.grecaptcha-badge
 ###gdpr_accept
+###gdpr-consent
 ##.js-consent-banner
 ##.js-cookie-notice
 ##.js-cookie-bar
 ##.js-cookie-notation
+###modalCookie
 ###onetrust-banner-sdk
 ###onetrust-consent-sdk
 ###ot-sdk-btn:not(button)

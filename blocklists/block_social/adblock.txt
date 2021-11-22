@@ -22,6 +22,7 @@
 ||likebtn.com^$3p
 ||platform.linkedin.com^$3p
 ||sharethis.com^$3p
+||share.pluso.ru^$3p
 ||usocial.pro^$3p
 !
 
@@ -43,6 +44,7 @@
 ||platform.twitter.com/widgets/tweet_button$3p
 ||platform.twitter.com/widgets/follow_button$3p
 ||platform.twitter.com/js/button.$3p
+||platform.twitter.com/oct.js$3p
 ||pinterest.com/v1/urls/count.json$3p
 ||reddit.com/api/info.json?$3p
 ||vk.com/share.php$3p
@@ -59,6 +61,8 @@
 /social-likes.min.js$domain=~animego.org|~zastenchivosti.net|~gorod-812.ru|~sputnik.by|~sputnik-news.ee|~animalreader.ru|~ichip.ru|~keddr.com|~kino-max.com|~kino24x7.com|~make-3d.ru|~miuipro.ru|~omelchuck.ru|~podfm.ru|~serial-online.com|~sputniknews.com|~trinixy.ru|~kinogo-kinopoisk.net|~bobfilm-online.ru|~westernfilm.ru|~bobfilm.tv|~kinokrik.net|~kinogo720.net|~kinogo-net-co.ru|~kinoklad.net|~intex-press.by|~kino-max.org|~farming-simulator15.ru|~trikky.ru|~trv-science.ru|~unzensuriert.at|~lizaalert.beeline.ru|~megapolisonline.ru|~sputniknews.ru|~miuipro.info|~sputnik.kg|~1prime.ru|~mobnovelty.ru|~poisktehniki.ru
 /wp-content/plugins/instagram-feed/*$~stylesheet
 /wp-content/plugins/easy-social-share-buttons$~stylesheet,domain=~geekculture.co
+/wp-content/plugins/sassy-social-share/*$domain=~nova.rs
+/wp-content/plugins/meks-easy-social-share/*
 !
 
 !

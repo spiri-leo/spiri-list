@@ -1,8 +1,20 @@
 [Adblock Plus 2.0]
 ! Title: spiri-list Social Whitelist
 ! Description: Social whitelist for adblockers
+! Homepage: https://github.com/spiri-leo/spiri-list
+!
+! To report the incorrect blocking or unblocked content, you can report on
+! the forum, reporting tool, on a email, and on GitHub.
+!
+! GitHub issues:   https://github.com/spiri-leo/spiri-list/issues
+! Forum:           https://cpiridon479.wixsite.com/spiri-list-forums/forum
+! Reporting tool:  https://cpiridon479.wixsite.com/spiri-list-forums/report
+! Yandex email:    spiridonowlev@yandex.com
+! Mail.ru email:   workmaillev@inbox.ru
+!
 
 ! Site specific
+@@||platform-api.sharethis.com/js/sharethis.js$domain=itsmycity.ru
 ! @@||yastatic.net/share2/share.js on a RU AdList
 @@||yastatic.net/share*/share.js$domain=sworm.io|trans.ru|chepetsk.ru|iz.ru|thequestion.ru|readovka.ru|mazda.ru|vse.fm|kinogo-720.net|xn--80aneaaefcxzcih6g1e.xn--p1ai|playground.ru|foxtrot.com.ua|biglion.ru|master-of-orion.ru|ktk.kz|universarium.org|pix.playground.ru|xn--80aaelc4ars1a7ab6d.xn--p1ai|kramola.info|myfin.by|zona.plus|culture.ru|yitservice.ru|open.kzn.ru
 !

@@ -21,11 +21,12 @@
 
 ! Domains
 ||7pisem.ru^$3p
+||allstat-pp.ru^$3p
+||cloud.roistat.com^$3p
 ||esputnik.com^$3p
 ||files.jumpoutpopup.ru^$3p,domain=~makedreamprofits.com
 ||getsitecontrol.com^$3p
 ||js.driftt.com^$3p
-||mod.calltouch.ru^$3p
 ||majorworker.com^$3p
 ||pushwoosh.com^$3p
 ||push.world^$3p
@@ -33,7 +34,6 @@
 ||player.anyclip.com^$domain=thewindowsclub.com
 ||sendpulse.com^$3p
 ||static.elfsight.com^$3p,domain=~cafemarta.ch
-||tawk.to^$3p
 ||viapush.com^$3p
 ||vitalectium.com^$3p
 ||widget.trustpilot.com^$3p
@@ -45,6 +45,7 @@
 
 ! Site specific
 ||a.mailmunch.co/app/$script,3p
+||aflt.market.yandex.ru/widget$domain=~tehno-rating.ru
 ||fb.ru/front/build/comments.js$domain=fb.ru
 ||getsitecontrol.com/widgets/$3p
 ||g.alicdn.com/gfe-ug/web-push-client*/*/iframemessage.js

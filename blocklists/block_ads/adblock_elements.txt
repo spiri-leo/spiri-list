@@ -17,6 +17,7 @@
 
 ! For sites
 1prime.ru##.banner
+19216811.ru##.recl
 2ip.ru##.add-top
 2ip.ru##.advMenuTab:style(visibility: hidden !important;)
 2ip.ru##.ip-icon-link
@@ -87,6 +88,16 @@ avtovzglyad.ru##.okey-24
 avtovzglyad.ru##div[class^="okey-"]
 avtovzglyad.ru##.right-column > [class]:has([src*="2xclick.ru"])
 askentire.net##div[style="min-height:250px"]
+app2top.ru##.page-wrapper:style(padding-top: 0 !important)
+app2top.ru##body:style(overflow: auto !important;)
+app2top.ru##.tingle-modal
+app2top.ru##[data-information]
+app2top.ru##a[href*="bit.ly"]
+app2top.ru##body [class^="information-block"]
+allbest.ru##.baner_top
+allbest.ru##a[href*="/ad.adriver."]
+allbest.ru##div[style="width: 600px; height: 90px; margin-left: auto; margin-right: auto;"]
+allbest.ru##iframe[src*="multiwork.org"]
 banki.ru##[data-dfp-container]
 banki.ru##div[data-header-banner]
 bb.lv##.fright > .reklamalv.special
@@ -94,6 +105,7 @@ bb.lv##.vesti-col > br + b
 bb.lv##.vesti-col > div.comment_box:has(> div#grf_vestilv)
 bb.lv##.vesti-col > div.comment_box:has(> ins.adsbygoogle)
 bleepingcomputer.com##[href^="https://www.bleepingcomputer.com/go/"]
+blockadblock.com##.adsbygoogle:upward(1)
 cnet.com##[class^="ad-incontent-ad-"]
 cnet.com##[class^="ad-leader-"]
 cnet.com##.c-adDisplay_container
@@ -122,6 +134,14 @@ cossa.ru##.b-top-text
 cnews.ru##.banner
 cnews.ru##body:style(overflow: auto !important;)
 cnews.ru##.google_bottom_line
+cnews.ru##.tizer_block
+cheb.ru###content > div[id="text"] > div[class] > a[target="_blank"] > img
+cheb.ru##.ru200200
+cheb.ru##.ru560130
+cheb.ru##.ru56080
+cheb.ru##.rurek
+cheb.ru##.topbanpda
+cheb.ru##noindex > a[target="_blank"][rel="nofollow"]
 dedale.ru##[id^="astr"]
 detroitnews.com##div[id^="ad-slot-"]
 disqus.com###placement-top
@@ -136,6 +156,9 @@ download.cnet.com##.c-pageProductDetail-sidebarAd
 download.cnet.com##.c-pageProductDetail_productAlternativeAd
 download.cnet.com##.o-ratio
 d.facebook.com##article[data-ft*="quick_promotion_id"]
+dtf.ru##.sidebar a[href="/business/native"]
+dtf.ru##a[class^="spotify"]
+dachnye-sovety.ru##h6:has-text(РЕКОМЕНДУЕМ ПОЧИТАТЬ:)
 echo.msk.ru##.bannerBlock
 echo.msk.ru##.first[id][style*="height"]:style(height: auto !important)
 edimdoma.ru##.card_commercial
@@ -158,6 +181,11 @@ forumhouse.ru##div:has(> [class$="relap-block"])
 fb.ru###yandex_flat
 fb.ru##.adsbygoogle:style(transform: scale(0)!important; height: 0!important;)
 fb.ru##.article__annex
+forum.xda-developers.com###sponsor_banner_link
+forum.xda-developers.com##.xda-alertbar-huawei
+forum.na-svyazi.ru###ipbwrapper > div[align="center"][style*="min-height: 130px"]
+forum.na-svyazi.ru###userlinks
+forum.na-svyazi.ru##.blockrek
 gazeta.ru##.banner
 gazeta.ru##.banners
 gazeta.ru##.p2:empty
@@ -187,6 +215,14 @@ games.mail.ru##.informer
 games.mail.ru##.aside__banner
 games.mail.ru##.banner_static
 games.mail.ru##.link-game
+gdz.ru##.media
+gdz.ru##.media-right
+gdz.ru##.store-eurobyte
+gdz.ru##.store-vopros
+gdz.ru##div[id^="media"]
+gramota.ru###header > div#display.clear
+gramota.ru###main-sec > .block-side ~ .block-side
+gramota.ru##.social_plate > p[align="center"]
 hackernoon.com##.adbytag
 hh.ru##.banner-place
 hh.ru##.index-banner
@@ -220,6 +256,10 @@ investing.com##body:style(overflow: auto !important)
 ign.com##.zad
 iguides.ru##.banner
 itech.co.ua##html > body:style(cursor: default !important)
+iobit.com###itoppopout
+iobit.com##[class^="itop"]
+itshneg.com###custom_html-7
+itshneg.com###custom_html-8
 www.kinopoisk.ru##div[class*="styles_headerContainer"] + div[class^="styles_"]:style(max-width: 100% !important)
 www.kinopoisk.ru##div[class^="styles_footerContainer__"]:style(max-width: 100% !important)
 www.kinopoisk.ru##div[class^="styles_pending"]:style(min-height: auto !important;)
@@ -260,6 +300,7 @@ klops.ru##div[class^="banner"]
 klops.ru##div[class^="banner-"]
 kaluga-poisk.ru##.brn-container
 kaluga-poisk.ru##body:not(#id):style(background: whitesmoke !important)
+kino-teatr.ru##a[title^="KION 30 дней"]
 lenta.ru##.b-banner-sidebar-rtb
 lenta.ru##.b-topic-sidebar div:has(> div:has-text(Новости партнеров))
 lenta.ru##.item.with-partners
@@ -280,6 +321,11 @@ liveinternet.ru##.header_v2
 liveinternet.ru##[class*="header"] ~ .float100 ~ div > div ~ *
 liveinternet.ru##div[class^="myblockbottom"]
 lenta.ru##.sber-slider
+liga.net##.banner-top
+liga.net##body iframe[name]:not([class]):not([id]):not([src]):remove()
+liveposts.ru##div[style^="min-height: 700px;"]
+letidor.ru##div:not([class$="native-banner"]) > div[data-render-state] > div[id^="block-id-"][id$="-container"]
+letidor.ru##div[data-render-state] > div[style*="min-height:"]
 megogo.ru##.specialBlock_v1
 megalyrics.ru###header_bottom
 megalyrics.ru##.js-banner
@@ -347,6 +393,7 @@ motor.ru##div[data-render-state] > div[style*="min-height:"]
 motor.ru##article div:has(> .heading + [id^="rnet_"])
 musictorrent.ru##a[href^="https://kyefakwa.com/"]
 mirror.co.uk##.partner
+mirror.co.uk##.shopwindow-adslot
 nytimes.com##.ad
 nytimes.com##.e12j3pa50
 news.rambler.ru##._1ErId
@@ -365,6 +412,7 @@ nnmclub.to##body:style(background: none !important)
 nnmclub.to##html:not(#id):style(padding-top: 0 !important)
 nnmclub.to##iframe[src*="/forum/ads/"]
 nnmclub.to##td.row2 > table[width="100%"] > tbody > tr > td > center
+newdaynews.ru##.mod-floatbann
 ok.ru###hook_Block_AnonymMainRightColumnAd
 ok.ru##.anonym_login_w+div.prl_txt
 outlook.live.com###app > div[class] > div[class] > div[class] > div[class]:not(.ms-FocusZone):not([class^="screenReaderText"]):has(> div > button[data-is-focusable])
@@ -376,6 +424,7 @@ ogorod.ru##:not([class^="banner_top_"]) > div[id^="adfox_"]
 obozrevatel.com##.--readToo:empty
 obozrevatel.com##.googleBanner
 obozrevatel.com##[class*="googleBanner"]
+osnmedia.ru##div[id^="unit_"]
 pikabu.ru##.app > .app__inner[style*="padding-top"]:style(padding-top: 64px !important)
 pikabu.ru##.stories-feed > div.stories-feed__container > .story:has(a.story__sponsor)
 pikabu.ru##.stories-feed > div.stories-feed__container > .story:has(a[href$="?from=ad_unit"])
@@ -406,6 +455,7 @@ passion.ru##div[data-render-state] > div[style*="min-height:"]
 passion.ru##.sideColumn .wrapper ~ div[style^="padding-bottom:"] ~ div
 passion.ru##.sideColumn[style*="width: 300px"]
 passion.ru##.ad
+pcmag.com##.article_ads
 quto.ru##div:not([class$="native-banner"]) > div[data-render-state] > div[id^="block-id-"][id$="-container"]
 quto.ru##div[data-render-state] > div[style*="min-height:"]
 quto.ru##div:has(> div + [id^="rnet_"])
@@ -510,6 +560,7 @@ riamo.ru##.top-banner
 riamo.ru##div[style="width:300px;height:500px"]
 riamo.ru##div[id^="unit_"]
 rambler.ru,gazeta.ru##a[href^="https://sber180.lenta.ru/"]
+reestr.rublacklist.net##.adv
 sportmail.ru##.article__item_slot
 sportmail.ru##.branding-p
 sportmail.ru##.js-fixed-panel > .box_collapse
@@ -583,6 +634,9 @@ shazoo.ru##body:style(background: initial !important)
 secretmag.ru##.sideColumn div[style^="padding-bottom:"]
 secretmag.ru##div:not([class$="native-banner"]) > div[data-render-state] > div[id^="block-id-"][id$="-container"]
 secretmag.ru##div[data-render-state] > div[style*="min-height:"]
+sber-zvuk.com##a[target="_blank"][rel="noreferrer"] > img[src^="https://sber-zvuk.com/static/avatar/banner/"]
+sibnet.ru###sibAd_topline
+sibnet.ru##div[id^="sibAd_"]
 turbopages.org##.advert
 thechive.com##.phone-ad
 tutorialrepublic.com##.sidebar
@@ -599,6 +653,18 @@ tehnichka.pro##body ins.adsbygoogle[style^="display:inline-block;"]
 thewindowsclub.com##.ezoic-adpicker-ad
 torrent-word.com##a[href="/1.php"]
 texterra.ru##html:style(overflow: auto !important)
+timeweb.com##.cm-represent
+tjournal.ru,vc.ru,dtf.ru##.booster-promo
+tjournal.ru###page_wrapper > :not(.page):not(.l-page):not(.page--error):not(.messenger):not(.subsite_head):not(.table):not(.ui-tabs):not([air-module]):not(.hashtag_head):not(.feed_header)
+tjournal.ru##body:not(#id):style(background-color: #f0f0f0 !important)
+tjournal.ru##.sidebar a[href="/business/native"]
+tjournal.ru##.layout__right-column > div[class*=" "][style] > div[class*=" "]
+tjournal.ru##.layout__right-column > div[class][style] > div[class*=" "]:not(:has(div[class] > svg[class]))
+tutsplus.com##.announcement-bar
+tutsplus.com##.avert
+tutsplus.com##.avert--leaderboard
+tetris.com###gameAxDivContainer
+tetris.com##.verticalAx
 unsplash.com##div[style^="--row-gutter"] > div a[href="/brands"]:upward(div[style^="--row-gutter"] > div):remove()
 ua-football.com##.asside:has(> .topBook)
 ua-football.com##.topBook
@@ -641,6 +707,8 @@ vokrug.tv##div > center:has(> [href^="https://zen.yandex.ru/"])
 vokrug.tv##div.yandex_direct + div.drop-line-x
 vokrug.tv##div[class^="block-"][class*="0"]
 vokrug.tv##div[style="width:250px;margin:0 auto;text-align: center;padding: 30px;"]
+vashurok.ru##.template__sidebar-studying
+vashurok.ru##.uchidoma-header-banner
 winaero.com###dfsfsdfs-asdasd-2
 winaero.com##.entry-content > div[style^="text-align:center;"][style$="font-weight:bold;"]
 winaero.com##.gadsense-ad
@@ -654,7 +722,12 @@ womanhit.ru##div[class^="banner__"]
 womanhit.ru##.sidebar > :not(.card)
 wmj.ru##div:not([class$="native-banner"]) > div[data-render-state] > div[id^="block-id-"][id$="-container"]
 wmj.ru##div[data-render-state] > div[style*="min-height:"]
+w3schools.com###mainLeaderboard
+w3schools.com###skyscraper
+w3schools.com##.sidesection > #skyscraper
+w3resource.com###sol_ad_two
 xakep.ru##body > a
+xda-developers.com##.spon_banner
 yandex.ru##.b-page:style(padding-top: 0 !important)
 yandex.*##.desk-notif-card__teaser-item
 yandex.ru##.desk-notif-card_teaser_yes
@@ -680,6 +753,7 @@ youtube.com###columns > #secondary:style(overflow: hidden !important)
 youtube.com###masthead-ad
 youtube.com##[layout*="display-ad-"]
 youtube.com##ytd-display-ad-renderer
+youtube.com##ytm-companion-slot
 youtube.com##ytd-display-ad-renderer:upward(ytd-rich-item-renderer)
 youtube.com##ytd-rich-grid-renderer ytd-rich-item-renderer div > ytd-display-ad-renderer:upward(2)
 youtube.com###merch-shelf
@@ -688,6 +762,7 @@ youtube.com###player-ads
 youtube.com##.ytp-ad-progress-list
 youtube-nocookie.com##.ytp-ad-progress-list
 youla.ru##div[data-test-component="ProductOrAdCard"] > span[class*=" "]
+youla.ru##div[data-test-component="ProductOrAdCard"] > a[href^="https://t.mail.ru/redir/"]
 yaplakal.com###footer:style(background: none !important; padding: 0 !important)
 yaplakal.com###header-flash
 yaplakal.com###lentaFeed > tr:has(> td[align="center"] > noindex > div[id^="crt-"])
@@ -712,6 +787,8 @@ znak.com##.wrapper > header:style(margin-top: 15px !important)
 znak.com##body:not(.mobile) header:style(margin-top: 20px!important;)
 znak.com##div[class$="-ads"]
 znak.com##figure
+zoom.cnews.ru##.yandex_direct
+zoom.cnews.ru##.article_content > div.wrapper + div.sidebar
 !
 
 ! JS objects
@@ -731,10 +808,13 @@ bing.com##+js(set-constant, AdBlockerTracking.AdBlockMonitor, noopFunc)
 bing.com##+js(set-constant, AdBTrack.AdbMon.isBlocked, noopFunc)
 bing.com##+js(set-constant, SVGForeignObjectElement, undefined)
 baby.ru##+js(abort-on-property-read, Ya)
+blockadblock.com##+js(nobab)
 cnet.com##+js(set-constant, Object.prototype.iadb, undefined)
 cdnvideo.ru##+js(set-constant, Object.prototype.autoPlay, false)
 drive2.ru##+js(abort-on-property-read, Object.prototype.AdfoxXhrRequestPrepared)
 drive2.ru##+js(abort-on-property-read, Object.prototype.yaContextCb)
+dtf.ru##+js(remove-attr, class, [data-igrozhur-promo])
+dtf.ru##+js(remove-attr, data-video-play-mode)
 echo.msk.ru##+js(abort-on-property-read, Object.prototype.AdvManagerLoaderRender)
 echo.msk.ru##+js(abort-on-property-read, Object.prototype.setBlockData)
 echo.msk.ru##+js(cookie-remover, /altrs|bltsr/)
@@ -749,6 +829,7 @@ gazeta.ru##+js(addEventListener-defuser, scroll, /Creepy/)
 gazeta.ru##+js(set-constant, g_GazetaNoExchange, true)
 gazeta.ru##+js(set-constant, isAdFree, noopFunc)
 gismeteo.ru##+js(abort-on-property-read, Object.prototype.scriptsViaXhr)
+gdz.ru##+js(set-constant, app.book.external, null)
 iz.ru##+js(set-constant, Object.prototype.autoplay, false)
 imgur.com##+js(set-constant, ADBLOCKED, false)
 ivi.ru##+js(set-constant, Object.prototype.daAdvGetItems, undefined)
@@ -761,6 +842,7 @@ investing.com##+js(set-constant, google_ad_status, 1)
 izzylaif.com##+js(abort-on-property-read, notPuten)
 izzylaif.com##+js(abort-current-script, jQuery, undefined)
 iobit.com##+js(abort-on-property-read, LieDetector)
+infourok.ru##+js(nano-setInterval-booster)
 ign.com##+js(set-constant, Object.prototype.iadb, undefined)
 ign.com##+js(abort-current-script, document.addEventListener, isIframeNetworking)
 ign.com##+js(abort-current-script, addEventListener, iframe-network)
@@ -780,6 +862,9 @@ liveinternet.ru##+js(abort-on-property-read, Object.prototype._isTurbo)
 liveinternet.ru##+js(abort-on-property-read, Object.prototype.isYandex)
 liveinternet.ru##+js(abort-on-property-read, Object.prototype.YaadsBlockInit)
 liveinternet.ru##+js(abort-on-property-read, Object.prototype.Metrika)
+liga.net##+js(abort-current-script, document.createElement, /ru-n4p|ua-n4p|загрузка.../)
+liga.net##+js(abort-current-script, decodeURIComponent, getAdBlockStatus)
+liga.net##+js(abort-current-script, document.querySelector, /banner/)
 msn.com##+js(json-prune, *, list.*.link.ad list.*.link.kicker)
 msn.com##+js(set-constant, Object.prototype.iadb, undefined)
 mail.ru##+js(set-constant, document.title, null)
@@ -825,6 +910,9 @@ thechive.com##+js(nofab)
 techpowerup.com##+js(remove-class, mnnusjsddg)
 twitch.tv##+js(window.open-defuser, amazon-adsystem)
 thewindowsclub.com##+js(abort-on-property-read, googletag)
+target.my.com##+js(set-constant, trg.ads, true)
+tjournal.ru##+js(remove-attr, data-video-play-mode)
+tetris.com##+js(abort-on-property-write, makeIFrameSrc)
 www.vesti.ru##+js(abort-current-script, document.createElement, String.fromCharCode)
 vesti.ru##+js(abort-current-script, atob, ['charCodeAt'])
 vc.ru##+js(remove-attr, data-video-play-mode)
@@ -836,6 +924,7 @@ vk.com##+js(abort-on-property-read, PageBottomBanners)
 vk.com##+js(abort-on-property-read, Unauthorized)
 womanhit.ru##+js(abort-on-property-read, Object.prototype.AdblockCookieMatchingType)
 walla.co.il##+js(abort-current-script, atob, TextDecoder)
+xda-developers.com##+js(remove-class, twig-body)
 yandex.ru##+js(cookie-remover, /^bltsr$|^JPIqApiY$|^specific$|^substantial$/)
 yastatic.net##+js(set-constant, Object.prototype.videoAd, noopFunc)
 youtube.com##+js(set-constant, playerResponse.adPlacements, undefined)
@@ -896,10 +985,12 @@ zen.yandex.ru##+js(abort-on-property-read, Ya._detect_adblock_)
 ##.ad_block
 ##.ad-label
 ##.adLabel
+##.adUnit
 ##.adWrapper
 ##.adContainer
 ##.advert-bottom
 ##.advert_top
+##.adver-block
 ###adContainer
 ##.ads_header
 ##.adsSlot300600
@@ -944,6 +1035,7 @@ zen.yandex.ru##+js(abort-on-property-read, Ya._detect_adblock_)
 ##.banner240
 ##.BottomAd-container
 ##.bottom-ad
+##.bottomad
 ##[class^="flat_"][class*="_modal"]
 ##[class^="flat_"][class*="_cross"]
 ##[class^="flat_"][class*="_out"]
@@ -1001,6 +1093,9 @@ zen.yandex.ru##+js(abort-on-property-read, Ya._detect_adblock_)
 ##[id^="unit_"] > a[href*="://smi2.net"]
 ##[id*="ScriptRoot"]
 ##[id^="div-gpt-ad"]
+! This is rule added on uBlock filters
+! ##[id^="div-gpt-ad"]:style(width:1px!important;height:1px!important;min-height:1px!important)
+!
 ##[id^="google_ads_iframe"]
 ##[name^="google_ads_iframe"]
 ##iframe[id^="google_ads_frame"]
@@ -1018,6 +1113,7 @@ zen.yandex.ru##+js(abort-on-property-read, Ya._detect_adblock_)
 ##.mediaget
 ##.modul-search
 ##.merc_title
+##.mntl-gpt-adunit
 ##.MIXADVERT_NET
 ##.nav-ad
 ##.native-ad
@@ -1027,6 +1123,14 @@ zen.yandex.ru##+js(abort-on-property-read, Ya._detect_adblock_)
 ###pushDownAd
 ##.pulse-widget
 ##.pr-AVA
+##.post__inarticle-ad-template
+###quads-ad1
+###quads-ad2
+###quads-ad4
+##.quads-ad1
+##.quads-ad2
+##.quads-ad4
+##.quads-location
 ##.rightColumnAd
 ###refine-ad
 ###right-adds
@@ -1036,7 +1140,12 @@ zen.yandex.ru##+js(abort-on-property-read, Ya._detect_adblock_)
 ##.sheknows-infuse-ad
 ##.surbis_banner
 ##.superscroll-ad
+##.scads-ad-placed
 ##.stickad
+##.sticky-ad
+! tutsplus.com##.sticky-ad-target
+##.sticky-ad-target
+!
 ###showAd
 ##span[id^="ezoic-pub-ad-placeholder-"]
 ###sponsored-recommendations
@@ -1049,6 +1158,7 @@ zen.yandex.ru##+js(abort-on-property-read, Ya._detect_adblock_)
 ##.td-a-rec
 ##.tiezerlady
 ###top_banner
+###TopAd
 ###taboola-below-article-thumbnails
 ###taboola-ad
 ###td-ad-placeholder

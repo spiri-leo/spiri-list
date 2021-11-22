@@ -21,6 +21,7 @@
 ! Domains
 ||consent.cmp.oath.com^
 ||cookielaw.org^$3p
+||cookiebot.com^$3p
 ||clickio.mgr.consensu.org^$3p
 ||fundingchoicesmessages.google.com^
 ||gn-flagpoles.api.bbci.co.uk^
@@ -46,9 +47,14 @@
 /cookie_consent_
 /cookiepolicy_
 /cookienotice.
+/cookieconsent.$domain=~crm.cat|~alginor.no|~khl.ru|~kundenkonto.lidl-connect.de
 -cookie-notice-
 /cookie-policy/*
+/cookie-law-$~script
+/cookie-law-info-public.js
 /cookies-for-comments/*
+/cookiecontrol-
+/consent-manager.
 _cookie_bar.
 /evidon-sitenotice-tag.
 /onetrust.

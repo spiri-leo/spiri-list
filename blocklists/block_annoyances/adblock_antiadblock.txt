@@ -14,9 +14,12 @@
 !
 
 ! Site specific whitelist
+@@||googleads.g.doubleclick.net/pagead/id$domain=rucore.net
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=rucore.net
 @@||static.1tv.ru/player/config/banner.gif
 !
 
 ! JS objects
 brainly.com##+js(set-constant, jsData.adsEnabled, false)
+rucore.net##+js(prevent-eval-if, adsBlocked)
 !

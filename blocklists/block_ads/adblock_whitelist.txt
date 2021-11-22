@@ -14,6 +14,7 @@
 !
 
 ! Site specific whitelist
+@@*$domain=elama.ru
 @@||2mdn.net/instream/
 @@||acdn.adnxs.com/ast/ast.js$domain=msn.com
 @@||accounts.google.com^$generichide
@@ -23,13 +24,17 @@
 @@||bing.com^$generichide
 @@||b.cdnst.net/javascript/amazon.js$domain=speedtest.net
 @@||baby.ru^$generichide
+@@||blockadblock.com^$generichide
 @@||cdn.reverso.net/*/static/js/advertising.js^
 @@||cnews.ru^$generichide
 @@||duckduckgo.com/?q=$generichide
+@@||external-content.duckduckgo.com/ip3/$image
+@@||felix.data.tm-awx.com/felix.min.js$script,domain=mirror.co.uk
 @@||www.google.*/search?$domain=google.ae|google.at|google.be|google.bg|google.by|google.ca|google.ch|google.cl|google.co.id|google.co.il|google.co.in|google.co.jp|google.co.ke|google.co.kr|google.co.nz|google.co.th|google.co.uk|google.co.ve|google.co.za|google.com|google.com.ar|google.com.au|google.com.br|google.com.co|google.com.ec|google.com.eg|google.com.hk|google.com.mx|google.com.my|google.com.pe|google.com.ph|google.com.pk|google.com.py|google.com.sa|google.com.sg|google.com.tr|google.com.tw|google.com.ua|google.com.uy|google.com.vn|google.cz|google.de|google.dk|google.dz|google.ee|google.es|google.fi|google.fr|google.gr|google.hr|google.hu|google.ie|google.it|google.lt|google.lv|google.nl|google.no|google.pl|google.pt|google.ro|google.rs|google.ru|google.se|google.sk
 @@||www.google.*/search?$generichide
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=showjet.ru
 @@||imasdk.googleapis.com/js/core/bridge*.html$domain=~spotify.com
+@@||i.viafoura.co/v*/www.mirror.co.uk/ingest$ping,domain=mirror.co.uk
 @@||liveinternet.ru^$generichide
 @@||otzovik.com^$generichide
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js|$domain=3dsmaxvideo.ru|adult-images.ru|anitokyo.tv|anypictures.ru|archicadvideo.ru|autocadvideo.ru|blogging-techies.com|bstudy.net|coreldrawvideo.ru|daz3d.ru|di.fm|electric-house.ru|electrotests.ru|excelvideo.ru|fcportables.com|forums.rusmedserv.com|freeopenvpn.org|ikigaitest.com|img2txt.com|imgbum.ru|izi-invest.ru|kompasvideo.ru|mod-wot.ru|nv.ua|olegon.ru|open3dmodel.com|otzovik.com|ozlib.com|parnuxi.biz|photoshopvideo.ru|pixcloud.ru|radioromantika.ru|solidworksvideo.ru|stroi-help.ru|studbooks.net|studme.org|studref.com|studwood.ru|tarkov-market.com|tehnobzor.ru|tehnografi.com|test24.wweek.ru|tests24.su|testserver.pro|videoredaktor.ru|vseprosto.top|vuzlit.ru|wallpapershome.ru|warhead.su|wordvideo.ru|xpicture.ru|xstud.ru
@@ -37,16 +42,20 @@
 @@||reklama.ramblergroup.com^
 @@||securepubads.g.doubleclick.net/tag/js/gpt.js$domain=autonews.ru|rbc.ru|sportrbc.ru
 @@||securepubads.g.doubleclick.net/tag/js/gpt.js$domain=softonic.com
+@@||securepubads.g.doubleclick.net/tag/js/gpt.js$domain=liga.net
 @@||static.doubleclick.net/instream/ad_status.js$domain=investing.com
 @@||store.rambler.ru/advt/uploads/$image,domain=reklama.ramblergroup.com
 @@||store.rambler.ru/advt/uploads/$media,domain=reklama.ramblergroup.com
 @@||share.flipboard.com/bookmarklet/$document
+@@||target.my.com^$document,1p
+@@||target.my.com/media/js/app/ads.js^
 @@||yastatic.net/pcode/adfox/loader.js$domain=vesti.ru
 @@||yastatic.net/pcode/adfox/loader.js$domain=mts.ru|tass.ru
 @@||yastatic.net/pcode/adfox/loader.js$domain=1prime.ru
 @@||yastatic.net/pcode/adfox/loader.js$domain=1000.menu|1prime.ru|car.ru|crowdrepublic.ru|dnevnik.ru|hitfm.ru|iz.ru|klops.ru|level.travel|makler.md|mos.ru|mosmetod.ru|mosreg.ru|mts.ru|nashe.ru|ogorod.ru|ok-magazine.ru|rbkgames.com|sm-news.ru|sm.news|stylenews.ru|vseinstrumenti.ru|webcaster.pro|www.igromania.ru
 @@||yandex.ru/ads/system/context.js$domain=profile.ru
 @@://yandex.ru/|$generichide
+@@//yandex.*/search/*$generichide
 !
 
 ! Whitelist elements
@@ -54,6 +63,8 @@
 ! Site specific CSS elements whitelist
 2ip.ru#@#.advMenuTab
 2ip.io#@#.advMenuTab
+forum.na-svyazi.ru#@##HeroAd
+na-svyazi.ru#@#.rekl
 msn.com#@#.ad
 mail.ru#@#.ad_text
 mail.ru#@#.advblock
@@ -63,6 +74,16 @@ mail.ru#@#.b-banner
 mail.ru#@#.b-media-banner
 mediafire.com#@##adwrapper
 ogorod.ru#@#div[id^="adfox_"]
+!
+
+! For more sites specific
+
+! This rule added by uBlock filters
+! #@#[id^="div-gpt-ad"]
+!
+
+!
+
 !
 
 ! JS whitelist

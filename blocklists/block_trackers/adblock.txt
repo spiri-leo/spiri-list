@@ -61,12 +61,12 @@
 ||analytics.sports.ru^
 ||analytics.liveact-vault.com^
 ||analytics.logsss.com^
+||analytics.300624.com^
 ||analytic-google.com^
 ||app-analytics.snapchat.com^
 ||app-analytics-ru.huami.com^
 ||app.chat.xiaomi.net^
 ||adfstat.yandex.ru^
-||aurora-d3.herokuapp.com^$3p
 ||awsync.yandex.ru^$3p
 ||ada-tr.staff-start.com^
 ||alexametrics.com^
@@ -85,6 +85,7 @@
 ||api.branch.io^
 ||api.castle.io^
 ||api2.branch.io^
+||api.loganalytics.io^
 ||alb.reddit.com^
 ||app.link^$3p
 ||adap.tv^
@@ -99,6 +100,7 @@
 ||als.baidu.com^
 ||afd.baidu.com^
 ||amplitude.com^$3p
+||appsflyer.com^$3p
 ||acint.net^$3p
 ||a.ria.ru^
 ||ajur.info^$3p
@@ -186,6 +188,7 @@
 ||capture.condenastdigital.com^
 ||collector.mediator.media^$3p
 ||cdn.segment.com^
+||cloud.roistat.com^$3p
 ||direct-events-collector.spot.im^
 ||demdex.net^
 ||d.reddit.com^
@@ -216,7 +219,7 @@
 ||events.redditmedia.com^
 ||extmaps-api.yandex.net^
 ||et.nytimes.com^
-||egress.yandex.net^
+! ||egress.yandex.net^ probably make break Yandex, not using other filters
 ||elqtrk.intel.ru^
 ||events.api.godaddy.com^$image
 ||eviltracker.net^
@@ -226,6 +229,7 @@
 ||everestjs.net^$3p
 ||events.launchdarkly.com^$3p
 ||events.busuu.com^
+||ezodn.com^
 ||freshmarketer.com^$3p
 ||frog.wix.com^$ping,xmlhttprequest
 ||fourier.taobao.com^
@@ -257,6 +261,7 @@
 ||getclicky.com^
 ||gravitec.net^$3p
 ||giraff.io^$3p
+||gdz.work^$3p
 ||grapeshot.co.uk^
 ||gaug.es^
 ||hotjar-analytics.com^
@@ -277,11 +282,13 @@
 ||infinityid.condenastdigital.com^
 ||insights.samsung.com^
 ||informer.yandex.ru^
+||informers.sinoptik.ua^
 ||instreamatic.com^$3p
 ||interakt.ru^$3p
 ||instant.page^$3p
 ||intellimize.co^$3p
 ||ipify.org^$3p
+||ipstack.com^$3p
 ||jac.yahoosandbox.com^
 ||js-agent.newrelic.com^
 ||jill.fc.yahoo.com
@@ -315,7 +322,9 @@
 ||linkconnector.com^$3p
 ||lfeeder.com^
 ||litix.io^
-||mail.ru/count
+||leokross.com^$3p
+||lr-ingest.io^$3p
+! ||mail.ru/count not used on other filters
 ||mail.ru/k?
 ||metrics-logger.spot.im^
 ||mybbc-analytics.files.bbci.co.uk^
@@ -379,7 +388,7 @@
 ||pixel.spotify.com^
 ||pixel-static.spotify.com^
 ||pixel.cdnwidget.com^
-||pixel.gosuslugi.ru^
+! ||pixel.gosuslugi.ru^ is not used
 ||px.ucweb.com^
 ||pony.ftm.cat^
 ||pingback.giphy.com^
@@ -424,6 +433,7 @@
 ||report-ps.meettech.net^
 ||retcode-us-west-*.arms.aliyuncs.com^
 ||reach-id.orbit.tm-awx.com^
+||refersion.com^$3p
 ://r.i.ua^
 ||mc.yandex.ru^
 ||myvisualiq.net^
@@ -485,6 +495,7 @@
 ||static.terratraf.io^$3p
 ||sprinklecontent.com^$3p
 ||secure.make6pain.com^
+||sjsmartcontent.org^$3p
 ||ssm.codes^$3p
 ||syteapi.com^
 ||tns-counter.ru^
@@ -547,13 +558,17 @@
 ||track.flexlinkspro.com^
 ||tnative.ru^$3p
 ||ttrace.ru^$3p
+||truenat.bid^$3p
 ||uptolike.com^$3p
 ||ue.flipboard.com^
+||ulogin.ru^$3p
 ||variti.net^$3p
 ||vortex.data.msn.com^
 ||visitor-analytics.io^$3p
 ||visitor-metrics.com^$3p
-||voxel.gosuslugi.ru^
+! If probably this rule breaks Gosuslugi. If this tracker, contact on GitHub.
+! ||voxel.gosuslugi.ru^
+!
 ||viglink.com^
 ||va-endpoint.com^$3p
 ||videoplayerhub.com^
@@ -577,13 +592,16 @@
 
 ! Tracking directories
 
+! Regex based
+/:\/\/rkn.gov.ru\/[a-g0-9]{30,}.gif/$domain=rkn.gov.ru
+!
+
 ! Site specific
 ||2gis.ru/_/metrics
 ||2gis.ru/_/log
 ||2ip.ru/sbar/$3p
 ||3dnews.ru/track
 ||4pda.*/st/ztm?
-||aurora-analytics.herokuapp.com/v2/collect
 ||avito.ru^*/dfp/px.js
 ||avito.ru/stat/
 ||apple.com/metrics/
@@ -606,15 +624,18 @@
 ||byteoversea.com/monitor_browser/
 ||bitrix.info/ba.js
 ||bing.com/fd/ls/
-||cdn.jsdelivr.net/npm/yandex-metrica-watch/
+||cdn.jsdelivr.net/npm/yandex-metrica-watch/$script
+||clck.yandex.ru/click/dtype=$3p
 ||cs.pikabu.ru/apps/ub/*/main/analytics.js
 ||cdn.retailrocket.*/*/tracking.js
 ||connect.facebook.net^*/fbds.js$3p
 ||c.bing.com/c.gif
 ||cnews.ru/inc/js/show_stat.js
+||cloudfront.net/tracker-latest.min.js
 ||duckduckgo.com/t/
 ||dropbox.com/log/
 ||e.pcloud.com/trackopen
+||googletagmanager.com^$domain=elama.ru
 ||evidon.com/pub/
 ||frog.wix.com/fed?
 ||facebook.com/tr?
@@ -648,11 +669,14 @@
 ||mail.yandex.*/monitoring_liza.txt$domain=mail.yandex.by|mail.yandex.kz|mail.yandex.ru|mail.yandex.ua|mail.yandex.com|mail.yandex.com.tr
 ||maps.googleapis.com/*/stats.js
 ||myfinance.com/widget/
+||mc.yandex.ru^$domain=elama.ru
 ||nytimes.com/v1/purr-cache
 ||nytimes.com/svc/nyt/data-layer?
 ||pss.alicdn.com/iku/log^
 ||paypalobjects.com/*/pixel.gif
 ||pcmag.com/js/z0wvjcbseegloxixoqvewq.min.js
+||patreon.com/api/tracking^
+||plausible.io/api/event
 ||rambler.ru/metrics/
 ||rambler.ru/*/okko-metrics
 ||redditmedia.com/gtm/jail?
@@ -678,6 +702,7 @@
 ||terabox.com/api/analytics
 ||tiktokv.com/web/report?
 ||tumblr.com/impixu?
+||threadloom.com/ga/
 ||wordpress.com/geo/
 ||vop-yahoo.akamaized.net/pixel.gif
 ||vk.com/js/lib/px.js
@@ -747,6 +772,7 @@
 /facebookpixel.
 /fbevents.js
 /federated-analytics.
+/frontend-gtag.
 /gen204/*
 /generate_204$image
 /gen_204?

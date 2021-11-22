@@ -31,8 +31,12 @@ ctnews.ru##.align-items-center.info-upper_post
 cnet.com##.sharebarContainer > .share-button:not(.emailWrapper):not(.comment-count-redesign)
 cosmo.ru##.social-sharing:style(visibility: hidden !important;)
 cnews.ru##.share-container
+cherepah.ru##.meks_ess
 disqus.com##.comment__share
 disqus.com###thread-share-bar
+dtf.ru##.shares
+dtf.ru##.v-shares
+dachnye-sovety.ru##main > center:has-text(ПОДЕЛИТЕСЬ С ДРУЗЬЯМИ)
 forum.adguard.com##div[data-widget-definition="share_page"]
 forumhouse.ru##.fh-c-media-socials
 freepik.com##.button--pinterest
@@ -41,6 +45,9 @@ google.*##.kp-wholepage div[role="button"][jscontroller="Wct42"][aria-label] > s
 google.*##.SuUcIb
 gearbest.com##.goodsIntro_share
 games.mail.ru##.social:not(body)
+gdz.ru##.popUp-subscribe
+hostinger.ru##.social-container > a[href]
+hetmanrecovery.com##._share
 fontanka.ru##article[itemscope] ~ div[class]:has(> div[class] h4 + div > ul[class] > li[class] > a[href^="https://instagram.com/"][href$="_share"])
 fontanka.ru##section[itemprop="articleBody"] span[class] > img[alt="Поделиться"]:upward(1)
 fontanka.ru##ul > li[data-rg-name]
@@ -79,6 +86,7 @@ medium.com##button[aria-label^="Share on"]
 medialeaks.ru##.gshare__list
 myresume.ru##.s-social
 mediafire.com##.social-cont
+medium.com##div[style*="position: absolute;"][style*="transform: translate"] button > svg[width="25"][height="25"][viewBox="0 0 25 25"] > path[d^="M22."]:not([fill-rule]):upward(1)
 naked-science.ru##.shesht-social-sharing-block
 profile.ru##.js-stickybit
 progorodsamara.ru###MainContentBox > #CENTER > h3:has-text(Вступай в группу)
@@ -93,6 +101,8 @@ rbc.ru##.article__header__share-block
 ria.ru##.share
 ria.ru##.elem-info__share
 rambler.ru##div[data-blocks^="cluster_"] div[class]:has(> div[data-rambler-share])
+roskomsvoboda.org##.share button:not(#donate)
+roskomsvoboda.org##.share > h4
 sport24.ru##div:has(> span:has-text(Поделиться))
 soccer.ru###block-block-143
 soccer.ru###block-block-99
@@ -106,6 +116,7 @@ stackoverflow.com##.js-dismissable-hero
 showjet.ru##.rmp-sharing-social
 shazoo.ru##.asideSocial
 shazoo.ru##.socb
+skyeng.ru##skyeng-ff-social-sharer
 turbopages.org##.social-panel-root
 turbopages.org##.share__services
 techpowerup.com##.social:not(body)
@@ -115,7 +126,10 @@ tehnichka.pro##.aside-soc-cont
 thewindowsclub.com###ss-floating-bar
 templatemonster.com##.free-offer-buttons
 texterra.ru##.article-info-old__share
+tjournal.ru##.shares
+tjournal.ru##.v-shares
 templates.office.com##.odcom-template-details-sharing-pane
+tutsplus.com##.social-share-menu
 userstyles.org###share_div
 ura.news##.publication-social
 vp.rambler.ru##.eplayer-skin-share
@@ -129,6 +143,7 @@ wroom.ru##.nomobile.row
 winaero.com##.wsbp
 w.soundcloud.com##.soundHeader__shareButton
 wixsite.com##._2oeUd
+w3schools.com###right > .sidesection:has(> .sharethis)
 yandex.*##.news-story__share
 zr.ru##.info__share
 znak.com##.footer > div[class="credits"]:not([id="credits-id"])
@@ -153,7 +168,9 @@ znak.com##.sharethis-inline-share-buttons
 ##a[href^="http://twitter.com/intent/tweet?"]
 ##a[href^="//twitter.com/share"]
 ##a[href^="https://twitter.com/intent/follow?"]
+##a[href^="http://www.twitter.com/share"]
 ##a[href^="//twitter.com/intent/tweet?"]
+##a[onclick^="window.open('https://twitter.com/intent/tweet"]
 ##a[href^="https://vk.com/share.php"]
 ##a[href^="http://vk.com/share.php"]
 ##a[href^="//vk.com/share.php"]
@@ -163,6 +180,12 @@ znak.com##.sharethis-inline-share-buttons
 ##a[href^="//www.facebook.com/sharer.php?"]
 ##a[href^="//www.facebook.com/sharer/sharer.php?"]
 ##a[onclick*="//www.facebook.com/"][onclick*="sharer.php"]
+##a[onclick^="window.open('http://twitter.com/share"]
+##a[onclick^="window.open('http://vkontakte.ru/share.php"]
+##a[onclick^="window.open('https://vk.com/share.php"]
+##a[onclick^="window.open('http://www.facebook.com/sharer.php"]
+##a[onclick^="window.open('https://www.facebook.com/sharer/sharer.php"]
+##a[onclick^="window.open('http://www.odnoklassniki.ru/dk?st.cmd=addShare"]
 ##a[href^="https://t.me/share/url?"]
 ##a[href^="https://telegram.me/share/url?"]
 ##a[href^="https://share.flipboard.com/bookmarklet/"]
@@ -189,6 +212,7 @@ znak.com##.sharethis-inline-share-buttons
 ##a[href^="https://connect.ok.ru/dk?st.cmd="][href*="WidgetSharePreview"]
 ##a[href^="https://connect.ok.ru/dk?st.cmd=WidgetSharePreview"]
 ##a[href^="http://www.odnoklassniki.ru/dk?st.cmd=addShare"]
+##a[href^="https://www.tumblr.com/share"]
 ##a[href^="https://wa.me/?text="]
 ##a[href^="tg://msg_url?"]
 ##a[href^="viber://forward?text="]
@@ -201,6 +225,7 @@ znak.com##.sharethis-inline-share-buttons
 ##.content-share
 ##div[class^="widget-social"]
 ##div[id^="ok_group_widget"]
+##div[id^="vk_like"]
 ##.essb_links
 ##.essb_share
 ##.fb-like
@@ -210,8 +235,11 @@ znak.com##.sharethis-inline-share-buttons
 ###fb_groups
 ##.fb-like-box
 ###facebook-icon
+##.fa-linkedin-square
 ###fb-root:not(body):not(html)
 ##form[action*="livejournal.com/update.bml"]
+##.header-social
+##.heateor_sss_sharing_container
 ##.icon-pinterest
 ##.jw-submenu-sharing
 ##.likely
@@ -239,6 +267,7 @@ znak.com##.sharethis-inline-share-buttons
 ##.share-block
 ##.share_block
 ##.sharebox
+##.sharethis
 ##.sharedaddy
 ###share-block
 ###share_twitter
@@ -246,10 +275,12 @@ znak.com##.sharethis-inline-share-buttons
 ###social-plugins
 ##.shareButtons
 ##.sharelist
+##.socials-button_webnavoz
 ##.social-likes
 ##.social-networks
 ##.social_networks
 ##.social-media
+##.social-menu
 ##.socialmedia
 ##.social-sidebar
 ##.social-sharing
@@ -263,6 +294,7 @@ znak.com##.sharethis-inline-share-buttons
 ##.SocialButtons
 ##.soc-button
 ##.soc-buttons
+##.socseti
 ##.social-icons-big
 ##.ss-social-icons-container
 ##.ss-inline-share-wrapper
@@ -272,6 +304,7 @@ znak.com##.sharethis-inline-share-buttons
 ###twitter-icon
 ##.td-post-sharing
 ###vk_groups
+###vk_share
 ##.ya-share2
 ##.ya-share2__link
 ##.ya-share2__list

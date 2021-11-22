@@ -47,6 +47,7 @@
 !
 ! Yandex
 ||www.yandex.$removeparam=clid
+||yandex.*/images/$removeparam=source-serpid
 ://yandex.$removeparam=source
 !
 

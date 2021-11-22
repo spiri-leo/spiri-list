@@ -63,6 +63,8 @@
 ||ads-d.viber.com^
 ||ads.aws.viber.com^
 ||ads.api.vungle.com^
+||ads*.fingersoft.net^
+||ad1.sibnet.ru^
 ||ad.3dnews.ru^$domain=~ad.3dnews.ru
 ||applovin.com^
 ||adform.com^
@@ -93,6 +95,7 @@
 ||adsafeprotected.com^
 ||adtelligent.com^$3p
 ||api.smartadv.ru^
+||azfitn.com^$3p
 ||advmusic.com^$3p
 ||admitad.com^$3p
 ||adtago.s3.amazonaws.com^
@@ -123,28 +126,36 @@
 ||cdn-rtb.sape.ru^
 ||carbonads.net^$3p
 ||carbonads.com^
+||comasoiling.casa^
 ||doubleclick.net^
 ||delta.mediafort.ru^$3p
 ||dotomi.com^
 ||drp.su^
+||dsnrtg.com^
 ||edgrmtracking.com^$3p
 ||exponea.com^
+||enginsquawks.cam^
+||eqmx04n5s0.ru^$3p
 ||fastclick.net^
 ||fastclick.com^
 ||flurry.com^
 ||flurry.cachefly.net^
 ||factpic.ru^$3p
+||fuseplatform.net^
 ||googlesyndication.com^
 ||googleadservices.com^
 ||gnezdo.ru^
 ||gzppit.com^$3p
+||getterobes.cam^
 ||holder.com.ua^
+||hhnhxu.com^$3p
 ||imasdk.googleapis.com^
 ||iadsdk.apple.com^
 ||imrworldwide.com^
 ||inmobi.com^
 ||indexww.com^
 ||i.viafoura.co^
+||intellitxt.com^
 ||insightexpressai.com^
 ||idealmedia.io^
 ||justpremium.com^
@@ -178,6 +189,7 @@
 ||optad360.io^
 ||otm-r.com^$3p
 ||otnolatrnup.com^
+||ofbjgf.com^$3p
 ||pubmatic.com^
 ||pubnative.net^
 ||pulse.mail.ru^$domain=~mail.ru|~sportmail.ru
@@ -189,6 +201,7 @@
 ||pricelib.ru^$3p
 ||pub.network^
 ||plista.com^
+||pbedle.com^$3p
 ||rereddit.com^
 ||redventures.io^$3p
 ||rubiconproject.com^
@@ -198,17 +211,20 @@
 ||rcvlink.com^
 ||rcvlinks.com^
 ||rb.infox.sg^
+||rocketme.top^$3p
 ||samsungadhub.com^
 ||samsungtvads.com^
 ||samsungads.com^
 ||scorecardresearch.com^
 ||spotxchange.com^
 ||static-doubleclick.com^
+||servedby-buysellads.com^
 ||smartadserver.com^
 ||sspapi-prd.samsungrs.com^
 ||stickyadstv.com^
 ||supersonicads.com^
 ||supersonicads-a.akamaihd.net^
+||sjsmartcontent.org^$3p
 ||svk-native.ru^$3p
 ||seedr.ru^$3p
 ||static.aio.media^$3p
@@ -216,6 +232,7 @@
 ||static.wi-fi.ru^$3p
 ||sumome.com^
 ||snigelweb.com^$3p
+||servw.bid^$3p
 ||trafficdok.com^
 ||trafficbass.com^
 ||tapfiliate.com^
@@ -223,6 +240,7 @@
 ||unisound.cdnvideo.ru^
 ||uuidksinc.net^$3p
 ||uqystk.com^$3p
+||uwdvcn.com^$3p
 ||viadata.store^$3p
 ||videoads-cloud.rovio.com^
 ||videoroll.net^
@@ -247,6 +265,7 @@
 
 ! Regex based
 /^https?:\/\/yastatic\.net\/www\/_\/[^\s]{150,}/$image,domain=yandex.by|yandex.kz|yandex.ru|yandex.ua|yandex.uz
+/^https?:\/\/yandex\.(by|kz|ru|ua|uz)\/images\/(?!(search\?)|(touch\/search?))[^\s]{80,}/$xmlhttprequest,1p
 /^https?:\/\/(?!www\.instagram\.com|platform\.instagram\.com|[^\s]+\.fastly\.net|[^\s]+\.netdna-cdn\.com|[^\s]+\.google\.com|[^\s]+\.edgecastcdn\.net|[^\s]+\.ytimg\.com|[^\s]+\.twitter\.com|[^\s]+\.twimg\.com|[^\s]+\.tynt.com|[^\s]+\.pinterest\.com|mab\.chartbeat\.com|static\.chartbeat\.com|[^\s]+\.addthis\.com|[^\s]+\.addthisedge\.com|[^\s]+\.cloudflare\.com|[^\s]+\.bootstrapcdn\.com|code\.createjs\.com|cdn\.jsdelivr\.net|polyfill\.io|[^\s]+\.plrjs\.com|[^\s]+\.pljs\.ru|[^\s]+\.plyr\.io|[^\s]+\.viqeo\.tv|playercdn\.cdnvideo\.ru|[^\s]+\.delivembed\.cc|connect\.facebook\.net|[^\s]+\.facebook\.com|telegram\.org|[^\s]+\.hupso\.com|usocial\.pro|ulogin\.ru|[^\s]+\.uweb\.ru|[^\s]+\.oneall.com|[^\s]+\.issuu\.com|[^\s]+\.keycaptcha\.com|[^\s]+\.googleapis\.com|[^\s]+\.fontawesome\.com|[^\s]+\.wp\.com|www\.googletagservices\.com|www\.googleadservices\.com|www\.googletagmanager\.com|www\.google-analytics\.com|ssl\.google-analytics\.com|[^\s]+\.gstatic\.com|jsonip\.com|acint\.net|www\.acint\.net|kitbit\.net|ui\.ill\.in\.ua|[^\s]+\.ampproject.org|[^\s]+\.tildacdn\.com|[^\s]+\.tilda\.ws|tilda\.ws|source\.mmi\.bemobile\.ua|js-agent\.newrelic\.com|bam\.nr-data\.net|www\.tns-counter\.ru|api\.sypexgeo\.net|[^\s]+\.viglink\.com|jscdn\.yieldbird\.com|likemore-go\.imgsmail\.ru|likemore-fe\.go\.mail\.ru|ok\.ru|cdn\.connect\.mail\.ru|connect\.mail\.ru|collector\.mediator\.media|mediator\.mail\.ru|[^\s]+\.imgsmail.ru|appsmail\.ru|odnaknopka\.ru|connect\.ok\.ru|www\.odnoklassniki\.ru|vk\.com|login\.vk\.com|vkontakte\.ru|api\.vk\.com|userapi\.com|[^\s]+\.jivosite\.com|media\.reformal\.ru|[^\s]+\.giraff\.io|relap\.io|widget\.svk-native\.ru|[^\s]+\.phnx\.click|phnx\.click|sinst\.fwdcdn\.com|[^\s]+\.api\.here\.com|[^\s]+\.sendpulse\.com|[^\s]+\.gismeteo\.ru|[^\s]+\.gismeteo\.ua|sinoptik\.ua\/informers_js|informers\.ukr\.net|code\.jquery\.com|w\.uptolike\.com|cdnstats\.ru|share\.pluso\.ru|static\.addtoany\.com|api-maps\.yandex\.ru|share\.yandex\.ru|yastatic\.net|yandex\.st|mc\.yandex\.ru|matchid\.adfox\.yandex\.ru|aflt\.market\.yandex\.ru\/widget|[^\s]+\.linkedin\.com|[^\s]+\.gravitec\.net|widgets\.getpocket\.com|[^\s]+\.traq\.li|[^\s]+\.yabber\.cloud|[^\s]+\.disqus.com|disqus\.com|disquscdn\.com|[^\s]+\.disquscdn\.com|[^\s]+\.hypercomments\.com|intensedebate\.com|[^\s]+\.intensedebate\.com|zcomments\.net|[^\s]+\.cackle\.me|[^\s]+\.chatbro\.com|[^\s]+\.each\.im|embed\.widgetpack\.com|[^\s]+\.sharethis.com|pv\.pjtsu\.com|[^\s]+\.piktochart\.com|piktochart\.com|[^\s]+\.playbuzz\.com|playbuzz\.com|[^\s]+\.apester\.com|[^\s]+\.renteres\.ru|[^\s]+\.hwcdn\.net|[^\s]+\.gravatar\.com|cdn\.gravitec\.net|[^\s]+\.intercom\.io|js\.intercomcdn\.com|app\.hoversignal\.com|onesignal\.com|cdn\.onesignal\.com|[^\s]+\.vicomi\.com|api-ssl\.bitly\.com|[^\s]+\.getsitecontrol\.com|chimpstatic\.com|[^\s]+\.mailchimp\.com|[^\s]+\.onthe\.io)/$script,3p,domain=pg11.ru|pg12.ru|pg13.ru|pg21.ru|prochepetsk.ru|prodzer.ru|progorod33.ru|progorod43.ru|progorod58.ru|progorod59.ru|progorod62.ru|progorod76.ru|progorodnn.ru|progorodnsk.ru|progorodsamara.ru|progoroduhta.ru|prokazan.ru
 /section\/banners\/upload/$domain=015.by|0312.ua|032.ua|0332.ua|0342.ua|0352.ua|0362.ua|0372.ua|0382.ua|0412.ua|04141.com.ua|0432.ua|04563.com.ua|04596.com.ua|04597.com.ua|04598.com.ua|0462.ua|0472.ua|048.ua|04868.com.ua|0512.com.ua|05136.com.ua|05161.com.ua|0522.ua|0532.ua|05366.com.ua|0542.ua|05447.com.ua|0552.ua|0564.ua|0566.com.ua|0569.com.ua|057.ua|061.ua|06153.com.ua|0619.com.ua|0623.com.ua|06236.com.ua|06237.com.ua|06239.com.ua|06242.ua|06252.com.ua|06267.com.ua|06272.com.ua|06274.com.ua|06277.com.ua|0629.com.ua|0642.ua|06452.com.ua|0652.ua|0692.ua|1rnd.ru|3652.ru|3654.ru|3849.com.ua|44.ua|4594.com.ua|5692.com.ua|62.ua|6262.com.ua|6264.com.ua|65.media|7232.kz|8422city.ru|anapa.life|angarsk38.ru|bazhopol.ru|city01.am|city41.ru|comores24.com|go01.ru|go11.kz|go212.by|go216.by|go26.ru|go31.ru|go61.ru|go7812.ru|godublin.info|golondon.info|goriga.info|gorod3466.ru|gorodarmavir.ru|goroddomodedovo.ru|goshymkent.kz|inaktau.kz|inalmaty.kz|inastana.kz|inatyrau.kz|infolyubertsy.ru|inform69.ru|vilniuje.info|yocity12.ru
 !
@@ -257,6 +276,8 @@
 ||api.bbc.com/bbcdotcom/assets/*/script/av/emp/adverts.js$script,important
 ||aolcdn.com/ads/$script
 ||aflt.market.yandex.$domain=3dnews.ru|winnote.ru|modxvm.com|iguides.ru|rozetked.me|yablyk.com
+||afisha.cheb.ru/css/ban/
+||allbest.ru/img/*-bg.png
 ||cdn.comss.net/action/ya-antiphishing.jpg
 ||championat.com/embed/custom.css
 ||cdn.ampproject.org/*/amp-analytics-
@@ -269,6 +290,7 @@
 ||front.rg.ru/api/partners/
 ||googletagservices.com/tag/js/gpt.js$script,important,domain=downdetector.ru
 ||google.com/pagead/
+||google.com/adsense/search/
 ||gearbest.com/sw.js
 ||hi-fi.ru/js/yandexAds.js
 ||hhcdn.ru/nposter/
@@ -278,6 +300,7 @@
 ||ign.com/s/js/zad.js
 ||li.ru/static/radio/
 ||megalyrics.ru/util/ad_iframe/
+||multiwork.org^$subdocument,domain=allbest.ru
 ||newsapi.*.ru/v*/public/auto/offers$xmlhttprequest
 ||notix.io/ent/current/enot.min.js
 ||playbuzz.com/embed/$script,3p
@@ -304,7 +327,7 @@
 ||vidazoo.com/basev/$script,3p
 ||wikihow.com/x/zscsucgm?
 ||yastatic.net/*/rsya-tag-users/
-||yandex.net/get-direct
+! ||yandex.net/get-direct is not using on other filters
 ||yimg.com/nn/lib/metro/g/sda/$domain=yahoo.com
 ||yimg.com/rq/darla/$domain=yahoo.com
 ||yahoo.com/bidRequest?
@@ -314,6 +337,7 @@
 !
 
 ! For more sites
+-728x90.
 /advice-ads.
 /adtago.
 &adtype=
@@ -334,6 +358,7 @@
 /advbanners/*
 /ad_banner_
 -advertorial.
+-adserver.$domain=~aqua-adserver.com
 /advert.$~script,domain=~advert.ae|~advert.club|~advert.ee|~advert.io|~advert.media|~advert.org.pl|~motortrader.com.my
 /adfox.$domain=~adfox.de|~adfox.group|~adfox.hu
 /advt/*
@@ -355,12 +380,14 @@
 /images/adv.
 /informer.js$domain=~finfront.ru|~topvisor.com|~topvisor.dev
 /js/dfp-
+/media/index$domain=gdz-putina.fun|gdz.ninja|gdz.ru|gdzguru.com|gdzotputina.club|gdzputina.net|gdzputina.ru|megaresheba.com|megaresheba.ru|resheba.me|reshebnik.com|spishi.fun|stavcur.ru|zoobrilka.net
 /npm/prebid-
 /pagead/lvz?
 /prebid.$domain=~prebid.org
 -prebid.$script
 /pbjsandwich-
 /porpoiseant/*
+.php|$script,3p,domain=sibnet.ru
 /pr_advertising_ads_banner.
 /plugins/thirstyaffiliates/*
 .ru/ads/

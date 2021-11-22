@@ -18,9 +18,14 @@
 ! Chats
 
 ! Site specific
+||chat.autofaq.ai^$3p
+||chatra.io^$3p
 ||jivosite.com^$3p,domain=~jivosite.ru
+||mod.calltouch.ru^$3p
+||tawk.to^$3p
 ||widget.intercom.io^$3p,domain=~app.rezi.io|~intercom.com|~backerclub.co|~quidco.com|~green.energy
 ||widget.surveymonkey.com^$3p
+||widgets.mango-office.ru^$3p
 ||web.webformscr.com^$3p,domain=~sqatraining.ru
 ||webim.ru^$3p
 !

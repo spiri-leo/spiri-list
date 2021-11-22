@@ -1,9 +1,6 @@
-!
-! Anti Adblock (beta)
-!
 [Adblock Plus 2.0]
-! Title: spiri-list Adblock Anti Adblock Beta
-! Description: Anti Adblock beta blocklist for adblockers
+! Title: spiri-list Trackers Extra
+! Description: Good analytics without cookies blocklist for adblockers, but it is not necessary to use this filter.
 ! Homepage: https://github.com/spiri-leo/spiri-list
 !
 ! To report the incorrect blocking or unblocked content, you can report on
@@ -16,19 +13,10 @@
 ! Mail.ru email:   workmaillev@inbox.ru
 !
 
-! Elements
-rambler.ru##.rui__3_IS5
+! Domains
+||aurora-d3.herokuapp.com^$3p
 !
 
-! Anti adblock directories
-
-! Site specific
-||raw.githack.com/*/spiderblogging/main/antiadblock/2.0/code.min.js
-!
-
-! For more sites specific
-/blockadblock.$script
-/blockadblock.$xmlhttprequest
-!
-
+! Analytics locations
+||aurora-analytics.herokuapp.com/v2/collect
 !
