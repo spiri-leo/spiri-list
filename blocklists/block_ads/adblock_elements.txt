@@ -726,6 +726,8 @@ w3schools.com###mainLeaderboard
 w3schools.com###skyscraper
 w3schools.com##.sidesection > #skyscraper
 w3resource.com###sol_ad_two
+wday.ru##.creative
+wday.ru##div[class^="creative-placeholder"]
 xakep.ru##body > a
 xda-developers.com##.spon_banner
 yandex.ru##.b-page:style(padding-top: 0 !important)

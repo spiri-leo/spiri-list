@@ -363,6 +363,7 @@ wmj.ru,letidor.ru##.zalipuha
 wmj.ru##a[href^="https://prime.rambler.ru/promo/"]
 w3schools.com###right > div#internalCourses
 w3schools.com###right > div.sidesection:has(> a[href="https://www.w3schools.com/videos/index.php"])
+wday.ru##.subscribe
 xakep.ru##.theiaStickySidebar > div.widget_custom_html:has(> div > div > div#mc_embed_signup)
 xakep.ru##.bd-course
 yahoo.com##.Mb-20.hpsetbannerpromotdv2wafer
