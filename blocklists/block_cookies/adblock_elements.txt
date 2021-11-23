@@ -49,6 +49,7 @@ myresume.ru##.rulesInfo
 mediafire.com###cookie-accept-footer
 mts.by##.panel-cookie
 netology.ru##div[class*="-CookiesAgreement-"]
+netology.ru###cookie_show
 rutube.ru##.cookie-consent
 rucore.net##.lwpcngNotice
 soundcloud.com##.announcements

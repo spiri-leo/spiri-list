@@ -238,6 +238,7 @@ medium.com##a[href^="https://rsci.app.link"]
 nytimes.com##body:style(overflow: initial !important)
 nova.rambler.ru##div[class^="RabotaWidgetNew__root_ready--"]
 netology.ru##div[class*="-banner-module"]
+netology.ru##a[href^="https://tgclick.ru/netology_ru/"]
 old.reddit.com##.premium-banner-outer
 otvet.mail.ru##.y13G5
 okko.tv##.xD05N
