@@ -14,7 +14,7 @@
 !
 
 ! Domains
-||aurora-d3.herokuapp.com^$3p
+||aurora-d3.herokuapp.com^
 !
 
 ! Analytics locations
